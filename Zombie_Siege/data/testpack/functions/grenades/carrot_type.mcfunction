@@ -1,0 +1,4 @@
+scoreboard players set @p[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{display:{Name:"{\"text\":\"Grenade Launcher\"}",Lore:["Launch a grenade!"]},HideFlags:5,Unbreakable:1b,Enchantments:[{id:"minecraft:unbreaking",lvl:1}]}}}] type2 1
+scoreboard players set @p[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{display:{Name:"{\"text\":\"Missile Launcher\"}",Lore:["Launch a missile!"]},HideFlags:5,Unbreakable:1b,Enchantments:[{id:"minecraft:unbreaking",lvl:1}]}}}] type2 2
+scoreboard players set @p[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{display:{Name:"{\"text\":\"Flamethrower\"}",Lore:["Ignite fires!"]},HideFlags:5,Unbreakable:1b,Enchantments:[{id:"minecraft:unbreaking",lvl:1}]}}}] type2 3
+scoreboard players set @p[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{display:{Name:"{\"text\":\"Basic Gun\"}",Lore:["Shoot stuff"]},HideFlags:5,Unbreakable:1b,Enchantments:[{id:"minecraft:unbreaking",lvl:1}]}}}] type2 4

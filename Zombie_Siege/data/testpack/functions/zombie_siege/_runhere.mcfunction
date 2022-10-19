@@ -1,0 +1,5 @@
+function testpack:zombie_siege/nsdoor
+function testpack:zombie_siege/wedoor
+function testpack:zombie_siege/delstructure
+function testpack:zombie_siege/zombie_spawner
+function testpack:zombie_siege/doublejump
