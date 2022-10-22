@@ -1,8 +1,9 @@
 scoreboard objectives add deathCount deathCount
+scoreboard objectives add catCount dummy
 
 team add hyena
-team add miner
-team add redstoner
-team add scout
-team add fighter
-team add support
+team add cat
+
+difficulty hard
+
+team modify cat friendlyFire false

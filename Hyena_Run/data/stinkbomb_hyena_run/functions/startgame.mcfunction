@@ -13,9 +13,7 @@ function stinkbomb_hyena_run:foodspawn/hyenatnt
 
 #function stinkbomb_hyena_run:testendgame
 
-execute in minecraft:the_end as @a[x=0] run effect give @s instant_health 1 20 true
+execute in minecraft:the_end as @a[x=0,team=cat] in minecraft:overworld run tp @s 0 -32 0
+gamemode survival @a[team=cat]
 
-execute in minecraft:the_end as @a[x=0,team=hyena] run tp @s 39.6 -20 50.4
-execute in minecraft:the_end as @a[x=0,team=cat] run tp @s 0 -32 0
-
-gamemode survival @a[team=!]
+schedule function stinkbomb_hyena_run:starthyena 30s
