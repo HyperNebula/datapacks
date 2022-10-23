@@ -10,3 +10,4 @@ item replace entity @s armor.head with minecraft:player_head{display:{Name:"{\"t
 item replace entity @s armor.chest with leather_chestplate{display:{color:15662848},HideFlags:68,Unbreakable:1b} 1
 item replace entity @s armor.legs with leather_leggings{display:{color:15662848},HideFlags:68,Unbreakable:1b} 1
 item replace entity @s armor.feet with leather_boots{display:{color:15662848},HideFlags:68,Unbreakable:1b} 1
+item replace entity @p hotbar.3 with barrel{display:{Name:'{"text":"Barrel","color":"green","bold":true,"italic":true,"underlined":true}'}} 1
