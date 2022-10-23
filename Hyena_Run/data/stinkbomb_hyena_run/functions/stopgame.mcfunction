@@ -20,3 +20,6 @@ tag @a remove redstoner
 tag @a remove scout
 tag @a remove fighter
 tag @a remove support
+
+setblock -74 -64 -75 minecraft:redstone_block replace
+kill @e[type=item]
