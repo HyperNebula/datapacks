@@ -6,6 +6,8 @@ schedule clear stinkbomb_hyena_run:foodspawn/swampcorner
 schedule clear stinkbomb_hyena_run:foodspawn/center
 schedule clear stinkbomb_hyena_run:foodspawn/hyenatnt
 
+schedule clear stinkbomb_hyena_run:refill
+
 gamemode adventure @a[team=!]
 
 clear @a[team=!]
