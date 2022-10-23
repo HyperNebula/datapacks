@@ -11,3 +11,4 @@ item replace entity @p hotbar.7 with bucket{display:{Name:'{"text":"Bucket","col
 item replace entity @p hotbar.0 with crossbow{display:{Name:'{"text":"Don\'t Cross Me","color":"green","bold":true,"italic":true,"underlined":true}'},Unbreakable:1b} 1
 item replace entity @p hotbar.3 with minecraft:spectral_arrow{display:{Name:'{"text":"Pokies","color":"green","bold":true,"italic":true,"underlined":true}'}} 10
 item replace entity @p hotbar.3 with minecraft:spectral_arrow{display:{Name:'{"text":"Pokies","color":"green","bold":true,"italic":true,"underlined":true}'}} 10
+item replace entity @p inventory.0 with ladder{display:{Name:'{"text":"Ladder","color":"green","bold":true,"italic":true,"underlined":true}'}} 64
