@@ -10,3 +10,4 @@ item replace entity @s hotbar.6 with minecraft:lava_bucket{display:{Name:'{"text
 item replace entity @s hotbar.5 with minecraft:lava_bucket{display:{Name:'{"text":"Hot Stuff ;)","color":"dark_blue","bold":true,"italic":true,"underlined":true}'}}
 item replace entity @s hotbar.4 with minecraft:lava_bucket{display:{Name:'{"text":"Hot Stuff ;)","color":"dark_blue","bold":true,"italic":true,"underlined":true}'}}
 item replace entity @s hotbar.2 with barrel{display:{Name:'{"text":"Barrel","color":"dark_blue","bold":true,"italic":true,"underlined":true}'}} 1
+item replace entity @s hotbar.3 with bucket{display:{Name:'{"text":"Bucket","color":"dark_blue","bold":true,"italic":true,"underlined":true}'}} 1
