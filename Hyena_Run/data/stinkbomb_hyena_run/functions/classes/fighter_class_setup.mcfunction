@@ -5,6 +5,6 @@ item replace entity @s armor.chest with leather_chestplate{display:{color:158968
 item replace entity @s armor.legs with leather_leggings{display:{color:15896893},HideFlags:64,AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:5,Operation:0,UUID:[I;876767494,-1897775079,-1875865802,-1045342716],Slot:"legs"}]} 1
 item replace entity @s armor.feet with leather_boots{display:{color:15896893},HideFlags:64,AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:2,Operation:0,UUID:[I;876767494,-1897775079,-1875865802,-1045342716],Slot:"feet"}]} 1
 item replace entity @s hotbar.1 with stone_pickaxe{display:{Name:'{"text":"Picky","color":"gold","bold":true,"italic":true,"underlined":true}'},HideFlags:4,Unbreakable:1b} 1
-item replace entity @s hotbar.2 with stone_shovel{display:{Name:'{"text":"Shoooval","color":"gold","bold":true,"italic":true,"underlined":true}'},HideFlags:4,Unbreakable:1b} 1
+item replace entity @s hotbar.2 with golden_shovel{display:{Name:'{"text":"Shoooval","color":"gold","bold":true,"italic":true,"underlined":true}'},HideFlags:4,Unbreakable:1b} 1
 item replace entity @s hotbar.7 with ladder{display:{Name:'{"text":"Elevators","color":"gold","bold":true,"italic":true,"underlined":true}'}} 64
 item replace entity @s hotbar.6 with bucket{display:{Name:'{"text":"Bucket","color":"gold","bold":true,"italic":true,"underlined":true}'}} 1
