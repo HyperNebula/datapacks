@@ -1,0 +1,1 @@
+give @s splash_potion{display:{Name:'{"text":"Crack"}'},HideFlags:34,CustomPotionEffects:[{Id:2,Amplifier:3b,Duration:140,ShowParticles:0b},{Id:9,Amplifier:20b,Duration:240,ShowParticles:0b},{Id:33,Amplifier:20b,Duration:240,ShowParticles:0b}]} 1
