@@ -1,6 +1,6 @@
 item replace entity @s armor.head with minecraft:player_head{display:{Name:"{\"text\":\"Hyena\"}"},SkullOwner:{Id:[I;1997520530,2080722479,-1813965866,306438846],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmFlNWFlMTBmNDA3NmE4Y2FhZTEyNGI1YzA0ZjViYzM0YTBhNDc5ZmFhMmU5NzNmZDJkYWY5YTkxNDFiNWM2ZiJ9fX0="}]}}} 1
 item replace entity @s armor.chest with leather_chestplate{display:{color:0},Unbreakable:1b} 1
-item replace entity @s armor.legs with leather_leggins{display:{color:0},Unbreakable:1b} 1
+item replace entity @s armor.legs with leather_leggings{display:{color:0},Unbreakable:1b} 1
 item replace entity @s armor.feet with leather_boots{display:{color:0},Unbreakable:1b} 1
 item replace entity @s hotbar.0 with netherite_sword{display:{Name:'{"text":"Ouch","color":"black","bold":true,"italic":true,"underlined":true}'},Unbreakable:1b} 1
 item replace entity @s hotbar.1 with crossbow{display:{Name:'{"text":"Don\'t Cross Me","color":"black","bold":true,"italic":true,"underlined":true}'}} 1
