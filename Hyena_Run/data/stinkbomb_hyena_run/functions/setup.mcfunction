@@ -7,3 +7,6 @@ team add cat
 difficulty hard
 
 team modify cat friendlyFire false
+
+team modify cat nametagVisibility hideForOtherTeams
+team modify hyena nametagVisibility hideForOtherTeams
