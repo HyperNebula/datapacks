@@ -4,9 +4,10 @@ item replace entity @s armor.head with player_head{display:{Name:'{"text":"Meerk
 item replace entity @s armor.chest with leather_chestplate{display:{color:15896893},HideFlags:68,Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:6,Operation:0,UUID:[I;-1266328843,1616987153,-1483644547,-952647007],Slot:"chest"}]} 1
 item replace entity @s armor.legs with leather_leggings{display:{color:15896893},HideFlags:68,Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:5,Operation:0,UUID:[I;-1624986731,1603486565,-1820843358,-1982874180],Slot:"legs"}]} 1
 item replace entity @s armor.feet with leather_boots{display:{color:15896893},HideFlags:68,Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:2,Operation:0,UUID:[I;1260213079,1830178458,-1473741097,-24274951],Slot:"feet"}]} 1
-item replace entity @s hotbar.1 with stone_pickaxe{display:{Name:'{"text":"Picky","color":"gold","bold":true,"italic":true,"underlined":true}'},HideFlags:4,Unbreakable:1b} 1
+item replace entity @s hotbar.1 with wooden_pickaxe{display:{Name:'{"text":"Picky","color":"gold","bold":true,"italic":true,"underlined":true}'},HideFlags:4,Unbreakable:1b} 1
 item replace entity @s hotbar.2 with golden_shovel{display:{Name:'{"text":"Shoooval","color":"gold","bold":true,"italic":true,"underlined":true}'},HideFlags:4,Unbreakable:1b} 1
 item replace entity @s hotbar.7 with ladder{display:{Name:'{"text":"Elevators","color":"gold","bold":true,"italic":true,"underlined":true}'}} 64
 item replace entity @s hotbar.6 with bucket{display:{Name:'{"text":"Bucket","color":"gold","bold":true,"italic":true,"underlined":true}'}} 1
 item replace entity @p hotbar.5 with barrel{display:{Name:'{"text":"Barrel","color":"gold","bold":true,"italic":true,"underlined":true}'}} 1
 item replace entity @p hotbar.0 with stick{display:{Name:'{"text":"Sticky","color":"gold","bold":true,"italic":true,"underlined":true}'},Enchantments:[{id:"minecraft:knockback",lvl:4s}]} 1
+item replace entity @p inventory.0 with ladder{display:{Name:'{"text":"Ladder","color":"gold","bold":true,"italic":true,"underlined":true}'}} 64
