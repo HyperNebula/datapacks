@@ -23,3 +23,4 @@ tag @a remove support
 
 setblock -74 -64 -75 minecraft:redstone_block destroy
 kill @e[type=item]
+kill @e[type=minecraft:axolotl]
