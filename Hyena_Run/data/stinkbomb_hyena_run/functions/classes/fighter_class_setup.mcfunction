@@ -7,6 +7,6 @@ item replace entity @s armor.feet with leather_boots{display:{color:15896893},Hi
 item replace entity @s hotbar.1 with wooden_pickaxe{display:{Name:'{"text":"Picky","color":"gold","bold":true,"italic":true,"underlined":true}'},HideFlags:4,Unbreakable:1b} 1
 item replace entity @s hotbar.2 with golden_shovel{display:{Name:'{"text":"Shoooval","color":"gold","bold":true,"italic":true,"underlined":true}'},HideFlags:4,Unbreakable:1b} 1
 item replace entity @s hotbar.6 with bucket{display:{Name:'{"text":"Bucket","color":"gold","bold":true,"italic":true,"underlined":true}'}} 1
-item replace entity @p hotbar.5 with barrel{display:{Name:'{"text":"Barrel","color":"gold","bold":true,"italic":true,"underlined":true}'}} 1
-item replace entity @p hotbar.0 with stick{display:{Name:'{"text":"Sticky","color":"gold","bold":true,"italic":true,"underlined":true}'},Enchantments:[{id:"minecraft:knockback",lvl:4s}]} 1
-item replace entity @p inventory.0 with ladder{display:{Name:'{"text":"Ladder","color":"gold","bold":true,"italic":true,"underlined":true}'}} 64
+item replace entity @s hotbar.5 with barrel{display:{Name:'{"text":"Barrel","color":"gold","bold":true,"italic":true,"underlined":true}'}} 1
+item replace entity @s hotbar.0 with stick{display:{Name:'{"text":"Sticky","color":"gold","bold":true,"italic":true,"underlined":true}'},Enchantments:[{id:"minecraft:knockback",lvl:4s}]} 1
+item replace entity @s inventory.0 with ladder{display:{Name:'{"text":"Ladder","color":"gold","bold":true,"italic":true,"underlined":true}'}} 64
