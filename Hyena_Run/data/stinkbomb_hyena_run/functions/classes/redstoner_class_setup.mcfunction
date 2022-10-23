@@ -11,8 +11,8 @@ item replace entity @s hotbar.5 with barrel{display:{Name:'{"text":"Barrel","col
 item replace entity @s hotbar.2 with redstone{display:{Name:'{"text":"POWER","color":"red","bold":true,"italic":true,"underlined":true}'}} 32
 item replace entity @s inventory.0 with sculk_sensor{display:{Name:'{"text":"No Jonah","color":"white","bold":true,"italic":true,"underlined":true}'}} 1
 item replace entity @s inventory.1 with red_wool{display:{Name:'{"text":"No Jonah","color":"white","bold":true,"italic":true,"underlined":true}'}} 10
-item replace entity @s inventory.2 with redstone_repeater{display:{Name:'{"text":"No Jonah","color":"white","bold":true,"italic":true,"underlined":true}'}} 16
-item replace entity @s inventory.3 with redstone_comparator{display:{Name:'{"text":"No Jonah","color":"white","bold":true,"italic":true,"underlined":true}'}} 3
+item replace entity @s inventory.2 with repeater{display:{Name:'{"text":"No Jonah","color":"white","bold":true,"italic":true,"underlined":true}'}} 16
+item replace entity @s inventory.3 with comparator{display:{Name:'{"text":"No Jonah","color":"white","bold":true,"italic":true,"underlined":true}'}} 3
 item replace entity @s inventory.4 with observer{display:{Name:'{"text":"No Jonah","color":"white","bold":true,"italic":true,"underlined":true}'}} 6
 item replace entity @s inventory.5 with dispenser{display:{Name:'{"text":"No Jonah","color":"white","bold":true,"italic":true,"underlined":true}'}} 4
 item replace entity @s inventory.6 with slime_block{display:{Name:'{"text":"No Jonah","color":"white","bold":true,"italic":true,"underlined":true}'}} 10
