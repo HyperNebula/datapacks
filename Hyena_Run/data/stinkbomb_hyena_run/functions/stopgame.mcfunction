@@ -1,4 +1,5 @@
 schedule clear stinkbomb_hyena_run:testendgame
+schedule clear stinkbomb_hyena_run:starthyena
 
 schedule clear stinkbomb_hyena_run:foodspawn/mesacorner
 schedule clear stinkbomb_hyena_run:foodspawn/housecorner
