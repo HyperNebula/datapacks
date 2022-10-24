@@ -1,5 +1,4 @@
-item replace entity @s hotbar.0 with stick{display:{Name:'{"text":"Sticky","color":"gold","bold":true,"italic":true,"underlined":true}'},Enchantments:[{id:"minecraft:knockback",lvl:4s}]} 1
-item replace entity @s hotbar.8 with golden_apple{display:{Name:'{"text":"Fruity Tooty","color":"gold","bold":true,"italic":true,"underlined":true}'}} 3
+item replace entity @s hotbar.0 with stick{display:{Name:'{"text":"Sticky","color":"gold","bold":true,"italic":true,"underlined":true}'},Enchantments:[{id:"minecraft:knockback",lvl:5s}]} 1
 item replace entity @s armor.head with player_head{display:{Name:'{"text":"Meerkat"}'},HideFlags:64,AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:2,Operation:0,UUID:[I;1394487583,987581024,-1794970332,1714097217],Slot:"head"}],SkullOwner:{Id:[I;54683688,-2118759116,-1811438804,1016095970],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg0ZTk1MDA4ZDc4YWE1MDIwNTAzZjFlZjVjNmNjNzgwYmI4MzBkMTRhZWI0ZDk1NTgyYTA1ZGFmOGVjYTU5MCJ9fX0="}]}}} 1
 item replace entity @s armor.chest with leather_chestplate{display:{color:15896893},HideFlags:68,Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:6,Operation:0,UUID:[I;-1266328843,1616987153,-1483644547,-952647007],Slot:"chest"}]} 1
 item replace entity @s armor.legs with leather_leggings{display:{color:15896893},HideFlags:68,Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:5,Operation:0,UUID:[I;-1624986731,1603486565,-1820843358,-1982874180],Slot:"legs"}]} 1
@@ -7,6 +6,7 @@ item replace entity @s armor.feet with leather_boots{display:{color:15896893},Hi
 item replace entity @s hotbar.1 with wooden_pickaxe{display:{Name:'{"text":"Picky","color":"gold","bold":true,"italic":true,"underlined":true}'},HideFlags:4,Unbreakable:1b} 1
 item replace entity @s hotbar.2 with golden_shovel{display:{Name:'{"text":"Shoooval","color":"gold","bold":true,"italic":true,"underlined":true}'},HideFlags:4,Unbreakable:1b} 1
 item replace entity @s hotbar.6 with bucket{display:{Name:'{"text":"Bucket","color":"gold","bold":true,"italic":true,"underlined":true}'}} 1
-item replace entity @s hotbar.5 with barrel{display:{Name:'{"text":"Barrel","color":"gold","bold":true,"italic":true,"underlined":true}'}} 1
-item replace entity @s hotbar.0 with stick{display:{Name:'{"text":"Sticky","color":"gold","bold":true,"italic":true,"underlined":true}'},Enchantments:[{id:"minecraft:knockback",lvl:4s}]} 1
+item replace entity @s hotbar.7 with ender_pearl{display:{Name:'{"text":"Toilet Paper","color":"gold","bold":true,"italic":true,"underlined":true}'}} 2
+item replace entity @s hotbar.8 with golden_apple{display:{Name:'{"text":"Fruity Tooty","color":"gold","bold":true,"italic":true,"underlined":true}'}} 3
 item replace entity @s inventory.0 with ladder{display:{Name:'{"text":"Ladder","color":"gold","bold":true,"italic":true,"underlined":true}'}} 64
+item replace entity @s inventory.1 with barrel{display:{Name:'{"text":"Barrel","color":"gold","bold":true,"italic":true,"underlined":true}'}} 1
