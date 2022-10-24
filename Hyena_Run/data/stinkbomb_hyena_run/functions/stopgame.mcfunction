@@ -12,7 +12,7 @@ gamemode adventure @a[team=!]
 
 clear @a[team=!]
 execute in minecraft:the_end run tp @a[team=!] 0 67 0
-spawnpoint @a 0 252 0
+spawnpoint @a 0 67 0
 
 execute as @a[team=cat] run say I won
 
