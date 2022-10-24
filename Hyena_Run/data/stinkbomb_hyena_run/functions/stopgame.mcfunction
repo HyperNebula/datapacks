@@ -15,7 +15,7 @@ clear @a[team=!]
 execute in minecraft:the_end run tp @a[team=!] 0 67 0
 spawnpoint @a 0 67 0
 
-execute as @a[team=cat] run say I won
+title @a title [{"selector":"@a[team=cat]"},{"text":" won the game!","color":"dark_green"}]
 
 team leave @a
 tag @a remove miner
