@@ -12,4 +12,6 @@ execute in minecraft:the_end as @a[x=0,team=cat] run effect give @s minecraft:hu
 execute in minecraft:the_end as @a[x=0,team=cat] in minecraft:overworld run tp @s 0 -32 0
 execute in minecraft:overworld as @a[x=0,team=cat] run gamemode survival @s
 
+execute in minecraft:the_end as @a[x=0,team=hyena] run execute in minecraft:the_nether run tp @s 0 50 0
+
 schedule function stinkbomb_hyena_run:starthyena 30s
