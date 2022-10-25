@@ -13,5 +13,8 @@ execute as @a[nbt={ActiveEffects:[{Id:25}]}] run effect give @s minecraft:jump_b
 execute in minecraft:the_end as @a[x=0] run effect give @s resistance 1 9 true
 execute in minecraft:the_end as @a[x=0] run effect give @s saturation 1 9 true
 
+team join hyena @e[type=minecraft:firework_rocket]
+
 execute in minecraft:the_end run tp @a[tag=!synced] 0 67 0 facing 0.50 67 -4.00
+gamemode adventure @a[tag=!synced]
 execute in minecraft:the_end as @a[x=0,tag=!synced] run tag @s add synced
