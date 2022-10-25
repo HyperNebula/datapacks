@@ -1,10 +1,10 @@
 function stinkbomb_hyena_run:deathroutine
 function stinkbomb_hyena_run:classselection
 
-effect give @a[team=cat] hunger 2 4 true
+effect give @a[team=cat] hunger 2 1 true
 effect give @a[team=cat] night_vision 10 0 true
 #effect give @a[team=hyena] mining_fatigue 2 1 true
-effect give @a[team=hyena] speed 2 1 true
+#effect give @a[team=hyena] speed 2 1 true
 effect give @a[team=hyena] resistance 2 9 true
 effect give @a[team=hyena] saturation 2 9 true
 
