@@ -2,7 +2,7 @@ item replace entity @s armor.head with minecraft:player_head{display:{Name:"{\"t
 item replace entity @s armor.chest with leather_chestplate{display:{color:16711680},HideFlags:68,Unbreakable:1b} 1
 item replace entity @s armor.legs with leather_leggings{display:{color:16711680},HideFlags:68,Unbreakable:1b} 1
 item replace entity @s armor.feet with leather_boots{display:{color:16711680},HideFlags:68,Unbreakable:1b} 1
-item replace entity @s hotbar.6 with bucket{display:{Name:'{"text":"Bucket","color":"red","bold":true,"italic":true,"underlined":true}'}} 2
+item replace entity @s inventory.25 with bucket{display:{Name:'{"text":"Bucket","color":"red","bold":true,"italic":true,"underlined":true}'}} 2
 item replace entity @s hotbar.7 with tnt{display:{Name:'{"text":"The Big One","color":"red","bold":true,"italic":true,"underlined":true}'}} 3
 item replace entity @s hotbar.8 with redstone_torch{display:{Name:'{"text":"Sparky","color":"red","bold":true,"italic":true,"underlined":true}'}} 3
 item replace entity @s hotbar.0 with wooden_pickaxe{display:{Name:'{"text":"Picky","color":"red","bold":true,"italic":true,"underlined":true}'},HideFlags:4,Unbreakable:1b} 1

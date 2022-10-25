@@ -5,11 +5,11 @@ item replace entity @s armor.feet with leather_boots{display:{color:2233087},Hid
 item replace entity @s hotbar.0 with golden_pickaxe{display:{Name:'{"text":"Picky","color":"dark_blue","bold":true,"italic":true,"underlined":true}'},HideFlags:4,Unbreakable:1b,Enchantments:[{id:"minecraft:efficiency",lvl:5s}]} 1
 item replace entity @s hotbar.1 with golden_shovel{display:{Name:'{"text":"Shoooval","color":"dark_blue","bold":true,"italic":true,"underlined":true}'},HideFlags:4,Unbreakable:1b,Enchantments:[{id:"minecraft:efficiency",lvl:2s}]} 1
 item replace entity @s hotbar.7 with tnt{display:{Name:'{"text":"The Big One","color":"dark_blue","bold":true,"italic":true,"underlined":true}'}} 5
-item replace entity @s hotbar.8 with redstone_torch{display:{Name:'{"text":"Sparky","color":"dark_blue","bold":true,"italic":true,"underlined":true}'}} 5
+item replace entity @s hotbar.8 with flint_and_steel{display:{Name:'{"text":"Sparky","color":"dark_blue","bold":true,"italic":true,"underlined":true}'}} 5
 item replace entity @s hotbar.6 with minecraft:lava_bucket{display:{Name:'{"text":"Hot Stuff ;)","color":"dark_blue","bold":true,"italic":true,"underlined":true}'}}
 item replace entity @s inventory.15 with minecraft:lava_bucket{display:{Name:'{"text":"Hot Stuff ;)","color":"dark_blue","bold":true,"italic":true,"underlined":true}'}}
 item replace entity @s inventory.24 with minecraft:lava_bucket{display:{Name:'{"text":"Hot Stuff ;)","color":"dark_blue","bold":true,"italic":true,"underlined":true}'}}
 item replace entity @s inventory.0 with barrel{display:{Name:'{"text":"Barrel","color":"dark_blue","bold":true,"italic":true,"underlined":true}'}} 1
-item replace entity @s hotbar.3 with bucket{display:{Name:'{"text":"Bucket","color":"dark_blue","bold":true,"italic":true,"underlined":true}'}} 1
+item replace entity @s inventory.2 with bucket{display:{Name:'{"text":"Bucket","color":"dark_blue","bold":true,"italic":true,"underlined":true}'}} 1
 item replace entity @s inventory.1 with ladder{display:{Name:'{"text":"Ladder","color":"dark_blue","bold":true,"italic":true,"underlined":true}'}} 64
 item replace entity @s weapon.offhand with minecraft:filled_map{map:0}
