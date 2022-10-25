@@ -1,5 +1,6 @@
 function stinkbomb_hyena_run:deathroutine
 function stinkbomb_hyena_run:classselection
+function stinkbomb_hyena_run:supporttp
 
 effect give @a[team=cat] hunger 2 1 true
 effect give @a[team=cat] night_vision 10 0 true
