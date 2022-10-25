@@ -12,3 +12,4 @@ item replace entity @s inventory.24 with minecraft:lava_bucket{display:{Name:'{"
 item replace entity @s inventory.0 with barrel{display:{Name:'{"text":"Barrel","color":"dark_blue","bold":true,"italic":true,"underlined":true}'}} 1
 item replace entity @s hotbar.3 with bucket{display:{Name:'{"text":"Bucket","color":"dark_blue","bold":true,"italic":true,"underlined":true}'}} 1
 item replace entity @s inventory.1 with ladder{display:{Name:'{"text":"Ladder","color":"dark_blue","bold":true,"italic":true,"underlined":true}'}} 64
+item replace entity @s weapon.offhand with minecraft:filled_map{map:0}

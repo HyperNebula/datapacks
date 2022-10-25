@@ -10,3 +10,4 @@ item replace entity @s hotbar.0 with crossbow{display:{Name:'{"text":"Don\'t Cro
 item replace entity @s hotbar.3 with minecraft:spectral_arrow{display:{Name:'{"text":"Pokies","color":"green","bold":true,"italic":true,"underlined":true}'}} 10
 item replace entity @s inventory.0 with ladder{display:{Name:'{"text":"Ladder","color":"green","bold":true,"italic":true,"underlined":true}'}} 64
 item replace entity @s inventory.1 with barrel{display:{Name:'{"text":"Barrel","color":"green","bold":true,"italic":true,"underlined":true}'}} 1
+item replace entity @s weapon.offhand with minecraft:filled_map{map:0}
