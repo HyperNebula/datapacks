@@ -13,4 +13,4 @@ item replace entity @s armor.feet with leather_boots{display:{color:15662848},Hi
 item replace entity @s inventory.0 with barrel{display:{Name:'{"text":"Barrel","color":"yellow","bold":true,"italic":true,"underlined":true}'}} 1
 item replace entity @s inventory.1 with ladder{display:{Name:'{"text":"Ladder","color":"yellow","bold":true,"italic":true,"underlined":true}'}} 64
 item replace entity @s weapon.offhand with minecraft:filled_map{map:0}
-item replace entity @s hotbar.2 with nether_star{display:{Name:'{"text":"Toilet Paper","color":"yellow","bold":true,"italic":true,"underlined":true}'}} 1
+item replace entity @s hotbar.2 with carrot_on_a_stick{display:{Name:'{"text":"Toilet Paper","color":"yellow","bold":true,"italic":true,"underlined":true}'}} 1

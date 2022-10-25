@@ -19,7 +19,8 @@ execute in minecraft:the_end run spawnpoint @a 0 67 0
 
 title @a title [{"selector":"@a[team=cat]"},{"text":" won the game!","color":"dark_green"}]
 
-team leave @a
+team empty cat
+team empty hyena
 tag @a remove miner
 tag @a remove redstoner
 tag @a remove scout
