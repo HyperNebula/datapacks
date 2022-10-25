@@ -14,7 +14,7 @@ gamemode adventure @a[team=!]
 clear @a[team=!]
 effect clear @a[team=!]
 effect give @a[team=!] instant_health 1 9 true
-execute in minecraft:the_end run tp @a[team=!] 0 67 0
+execute in minecraft:the_end run tp @a[team=!] 0 67 0 facing 0 67 -4
 spawnpoint @a 0 67 0
 
 title @a title [{"selector":"@a[team=cat]"},{"text":" won the game!","color":"dark_green"}]
