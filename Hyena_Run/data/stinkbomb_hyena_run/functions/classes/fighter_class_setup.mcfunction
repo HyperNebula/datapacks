@@ -7,6 +7,6 @@ item replace entity @s hotbar.1 with wooden_pickaxe{display:{Name:'{"text":"Pick
 item replace entity @s hotbar.2 with golden_shovel{display:{Name:'{"text":"Shoooval","color":"gold","bold":true,"italic":true,"underlined":true}'},HideFlags:4,Unbreakable:1b} 1
 item replace entity @s hotbar.6 with bucket{display:{Name:'{"text":"Bucket","color":"gold","bold":true,"italic":true,"underlined":true}'}} 1
 item replace entity @s hotbar.7 with ender_pearl{display:{Name:'{"text":"Toilet Paper","color":"gold","bold":true,"italic":true,"underlined":true}'}} 2
-item replace entity @s hotbar.8 with golden_apple{display:{Name:'{"text":"Fruity Tooty","color":"gold","bold":true,"italic":true,"underlined":true}'}} 3
+item replace entity @s hotbar.8 with splash_potion{display:{Name:'{"text":"Ibuprofen ","color":"green"}'},HideFlags:34,CustomPotionEffects:[{Id:6,Amplifier:5b,Duration:100},{Id:11,Amplifier:0b,Duration:200},{Id:12,Amplifier:20b,Duration:300},{Id:13,Amplifier:20b,Duration:300}],CustomPotionColor:1156608} 1
 item replace entity @s inventory.0 with ladder{display:{Name:'{"text":"Ladder","color":"gold","bold":true,"italic":true,"underlined":true}'}} 64
 item replace entity @s inventory.1 with barrel{display:{Name:'{"text":"Barrel","color":"gold","bold":true,"italic":true,"underlined":true}'}} 1
