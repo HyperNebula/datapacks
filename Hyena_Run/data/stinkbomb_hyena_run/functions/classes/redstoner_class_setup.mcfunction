@@ -28,4 +28,4 @@ item replace entity @s inventory.15 with stone_pressure_plate{display:{Name:'{"t
 item replace entity @s inventory.16 with stone_button{display:{Name:'{"text":"No Jonah","color":"red","bold":true,"italic":true,"underlined":true}'}} 2
 item replace entity @s inventory.17 with spruce_boat{display:{Name:'{"text":"No Jonah","color":"red","bold":true,"italic":true,"underlined":true}'}} 1
 item replace entity @s inventory.18 with ladder{display:{Name:'{"text":"Ladder","color":"red","bold":true,"italic":true,"underlined":true}'}} 64
-item replace entity @s inventory.18 with Lever{display:{Name:'{"text":"No Jonah","color":"red","bold":true,"italic":true,"underlined":true}'}} 2
+item replace entity @s inventory.19 with lever{display:{Name:'{"text":"No Jonah","color":"red","bold":true,"italic":true,"underlined":true}'}} 2
