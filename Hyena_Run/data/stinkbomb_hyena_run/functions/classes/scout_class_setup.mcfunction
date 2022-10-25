@@ -3,7 +3,7 @@ item replace entity @s armor.chest with elytra{HideFlags:4,Damage:422} 1
 item replace entity @s armor.legs with leather_leggings{display:{color:1113864},HideFlags:4,Unbreakable:1b} 1
 item replace entity @s armor.feet with leather_boots{display:{color:1113864},HideFlags:4,Unbreakable:1b} 1
 item replace entity @s hotbar.1 with wooden_pickaxe{display:{Name:'{"text":"Picky","color":"green","bold":true,"italic":true,"underlined":true}'},HideFlags:4,Unbreakable:1b} 1
-item replace entity @s hotbar.2 with golden_shovel{display:{Name:'{"text":"Shoooval","color":"green","bold":true,"italic":true,"underlined":true}'},HideFlags:4,Unbreakable:1b} 1
+item replace entity @s hotbar.2 with golden_shovel{display:{Name:'{"text":"Shoooval","color":"green","bold":true,"italic":true,"underlined":true}'},HideFlags:4,Unbreakable:1b,Enchantments:[{id:"minecraft:efficiency",lvl:2s}]} 1
 item replace entity @s hotbar.8 with minecraft:firework_rocket{display:{Name:'{"text":"Rocket Science","color":"green","bold":true,"italic":true,"underlined":true}'},Fireworks:{Explosions:[{Type:0,Trail:1b,Colors:[I;392973]}]}} 1
 item replace entity @s hotbar.7 with bucket{display:{Name:'{"text":"Bucket","color":"green","bold":true,"italic":true,"underlined":true}'}} 1
 item replace entity @s hotbar.0 with crossbow{display:{Name:'{"text":"Don\'t Cross Me","color":"green","bold":true,"italic":true,"underlined":true}'},Unbreakable:1b} 1

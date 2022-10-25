@@ -2,8 +2,8 @@ item replace entity @s armor.head with minecraft:player_head{display:{Name:"{\"t
 item replace entity @s armor.chest with leather_chestplate{display:{color:2233087},HideFlags:68,Unbreakable:1b} 1
 item replace entity @s armor.legs with leather_leggings{display:{color:2233087},HideFlags:68,Unbreakable:1b} 1
 item replace entity @s armor.feet with leather_boots{display:{color:2233087},HideFlags:68,Unbreakable:1b} 1
-item replace entity @s hotbar.0 with golden_pickaxe{display:{Name:'{"text":"Picky","color":"dark_blue","bold":true,"italic":true,"underlined":true}'},HideFlags:4,Unbreakable:1b} 1
-item replace entity @s hotbar.1 with golden_shovel{display:{Name:'{"text":"Shoooval","color":"dark_blue","bold":true,"italic":true,"underlined":true}'},HideFlags:4,Unbreakable:1b} 1
+item replace entity @s hotbar.0 with golden_pickaxe{display:{Name:'{"text":"Picky","color":"dark_blue","bold":true,"italic":true,"underlined":true}'},HideFlags:4,Unbreakable:1b,Enchantments:[{id:"minecraft:efficiency",lvl:5s}]} 1
+item replace entity @s hotbar.1 with golden_shovel{display:{Name:'{"text":"Shoooval","color":"dark_blue","bold":true,"italic":true,"underlined":true}'},HideFlags:4,Unbreakable:1b,Enchantments:[{id:"minecraft:efficiency",lvl:2s}]} 1
 item replace entity @s hotbar.7 with tnt{display:{Name:'{"text":"The Big One","color":"dark_blue","bold":true,"italic":true,"underlined":true}'}} 5
 item replace entity @s hotbar.8 with redstone_torch{display:{Name:'{"text":"Sparky","color":"dark_blue","bold":true,"italic":true,"underlined":true}'}} 5
 item replace entity @s hotbar.6 with minecraft:lava_bucket{display:{Name:'{"text":"Hot Stuff ;)","color":"dark_blue","bold":true,"italic":true,"underlined":true}'}}

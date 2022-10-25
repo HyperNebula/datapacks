@@ -6,7 +6,7 @@ item replace entity @s hotbar.6 with bucket{display:{Name:'{"text":"Bucket","col
 item replace entity @s hotbar.7 with tnt{display:{Name:'{"text":"The Big One","color":"red","bold":true,"italic":true,"underlined":true}'}} 3
 item replace entity @s hotbar.8 with redstone_torch{display:{Name:'{"text":"Sparky","color":"red","bold":true,"italic":true,"underlined":true}'}} 3
 item replace entity @s hotbar.0 with wooden_pickaxe{display:{Name:'{"text":"Picky","color":"red","bold":true,"italic":true,"underlined":true}'},HideFlags:4,Unbreakable:1b} 1
-item replace entity @s hotbar.1 with golden_shovel{display:{Name:'{"text":"Shoooval","color":"red","bold":true,"italic":true,"underlined":true}'},HideFlags:4,Unbreakable:1b} 1
+item replace entity @s hotbar.1 with golden_shovel{display:{Name:'{"text":"Shoooval","color":"red","bold":true,"italic":true,"underlined":true}'},HideFlags:4,Unbreakable:1b,Enchantments:[{id:"minecraft:efficiency",lvl:2s}]} 1
 item replace entity @s inventory.26 with barrel{display:{Name:'{"text":"Barrel","color":"red","bold":true,"italic":true,"underlined":true}'}} 1
 item replace entity @s hotbar.2 with redstone{display:{Name:'{"text":"POWER","color":"red","bold":true,"italic":true,"underlined":true}'}} 32
 item replace entity @s inventory.0 with sculk_sensor{display:{Name:'{"text":"No Jonah","color":"red","bold":true,"italic":true,"underlined":true}'}} 1
