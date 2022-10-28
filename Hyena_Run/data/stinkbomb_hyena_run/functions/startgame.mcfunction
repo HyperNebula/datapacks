@@ -6,6 +6,8 @@ function stinkbomb_hyena_run:foodspawn/swampcorner
 function stinkbomb_hyena_run:foodspawn/center
 function stinkbomb_hyena_run:foodspawn/hyenatnt
 
+function stinkbomb_hyena_run:timer
+
 function stinkbomb_hyena_run:testendgame
 
 execute in minecraft:the_end as @a[x=0,team=cat] run effect give @s minecraft:hunger 4 200 true

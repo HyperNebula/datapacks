@@ -7,4 +7,6 @@ execute as @a[tag=support] run function stinkbomb_hyena_run:classes/support_clas
 
 effect give @a[team=cat,tag=!redstoner] glowing 10 0 true
 
+scoreboard players set restock_timer timer 120
+
 schedule function stinkbomb_hyena_run:refill 120s

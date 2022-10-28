@@ -1,5 +1,6 @@
 scoreboard objectives add deathCount deathCount
 scoreboard objectives add catCount dummy
+scoreboard objectives add timer dummy
 scoreboard objectives add usetpitem minecraft.used:minecraft.nether_star
 
 team add hyena
