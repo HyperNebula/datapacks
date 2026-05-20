@@ -1,0 +1,6 @@
+{
+    "model": {
+    "type":"minecraftmodel",
+    "model":"cards:item/custom_item"
+    }
+}
