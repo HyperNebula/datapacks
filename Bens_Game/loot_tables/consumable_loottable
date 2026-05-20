@@ -1,0 +1,167 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:skeleton_spawn_egg",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 3
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:entity_data": {
+                  "id": "minecraft:parrot"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:shulker_spawn_egg",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 3
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:end_crystal",
+                "minecraft:entity_data": {
+                  "id": "minecraft:end_crystal",
+                  "HasVisualFire": 0,
+                  "CustomNameVisible": 0,
+                  "ShowBottom": 0
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "End Crystal"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "armor",
+                  "id": "armor",
+                  "operation": "add_value",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:tnt",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 8
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:block_state": {
+                  "unstable": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:enchanted_golden_apple",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:totem_of_undying",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:lava_bucket",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:ender_pearl",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 8
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:water_bucket",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:cobweb",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 32
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:wind_charge",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 32
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
