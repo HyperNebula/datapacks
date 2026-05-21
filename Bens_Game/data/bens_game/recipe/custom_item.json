@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " #u",
+    " G#",
+    "/  "
+  ],
+  "key": {
+    "#": "minecraft:gold_ingot",
+    "u": "minecraft:lava_bucket",
+    "G": "minecraft:golden_spear",
+    "/": "minecraft:blaze_rod"
+  },
+  "result": {
+    "id": "bens_game:custom_item",
+    "count": 1
+  }
+}
