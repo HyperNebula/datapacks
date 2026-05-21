@@ -1,0 +1,6 @@
+{
+  "parent": "bens_game:item/generated",
+  "textures": {
+    "layer0": "bens_game:item/custom_item"
+  }
+}
