@@ -1,6 +1,6 @@
 {
     "model": {
-    "type":"minecraftmodel",
-    "model":"bens_game:item/custom_item"
+        "type": "minecraft:model",
+        "model":"bens_game:item/custom_item"
     }
 }
