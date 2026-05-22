@@ -1,0 +1,347 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:lime_dye",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "bens_game:h_10"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "10 of Hearts"
+                }
+              ],
+              "target": "item_name"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:cyan_dye",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "bens_game:h_a"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Ace of Hearts"
+                }
+              ],
+              "target": "item_name"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:pink_dye",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "bens_game:h_k"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "King of Hearts"
+                }
+              ],
+              "target": "item_name"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:brown_dye",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "bens_game:h_q"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Queen of Hearts"
+                }
+              ],
+              "target": "item_name"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:gray_dye",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "bens_game:h_j"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Jack of Hearts"
+                }
+              ],
+              "target": "item_name"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:black_dye",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "bens_game:h_9"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "9 of Hearts"
+                }
+              ],
+              "target": "item_name"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:white_dye",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "bens_game:h_8"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "8 of Hearts"
+                }
+              ],
+              "target": "item_name"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:purple_dye",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "bens_game:h_7"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "7 of Hearts"
+                }
+              ],
+              "target": "item_name"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:orange_dye",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "bens_game:h_6"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "6 of Hearts"
+                }
+              ],
+              "target": "item_name"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:yellow_dye",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "bens_game:h_5"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "5 of Hearts"
+                }
+              ],
+              "target": "item_name"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:green_dye",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "bens_game:h_4"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "4 of Hearts"
+                }
+              ],
+              "target": "item_name"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:blue_dye",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "bens_game:h_3"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "3 of Hearts"
+                }
+              ],
+              "target": "item_name"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:red_dye",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "bens_game:h_2"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "2 of Hearts"
+                }
+              ],
+              "target": "item_name"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

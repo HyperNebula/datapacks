@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "bens_game:item/custom_item"
+    "layer0": "bens_game:item/h_j"
   }
 }
