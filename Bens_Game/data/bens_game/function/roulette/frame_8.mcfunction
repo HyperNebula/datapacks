@@ -5,7 +5,7 @@ execute at @e[type=armor_stand,name=black] run item replace entity @e[limit=2,so
 
 
 #give the black armor stands an item from the roulette loot table (49% quartz_block(ball), 49% nothing, 2% green_concrete)
-execute at @e[type=armor_stand,name=black] run item replace entity @e[limit=2,sort=nearest,distance=..4,name=black,type=armor_stand] weapon.mainhand with quartz_block 1
+execute at @e[type=armor_stand,name=black] run loot replace entity @e[limit=1,sort=nearest,name=black,type=armor_stand] weapon.mainhand 1 loot bens_game:roulette_loottable
 
 
 #run black win if black has the ball
