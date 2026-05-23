@@ -1,18 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " #u",
+    " #/",
     " G#",
-    "/  "
+    "B  "
   ],
   "key": {
     "#": "minecraft:gold_ingot",
-    "u": "minecraft:lava_bucket",
+    "/": "minecraft:torchflower",
     "G": "minecraft:golden_spear",
-    "/": "minecraft:blaze_rod"
+    "B": "minecraft:blaze_rod"
   },
   "result": {
-    "id": "bens_game:custom_item",
-    "count": 1
+    "id": "minecraft:golden_spear",
+    "components": {
+      "minecraft:item_model": "bens_game:custom_item",
+      "minecraft:item_name": "{\"text\":\"Fire Staff\"}"
+    }
   }
 }
