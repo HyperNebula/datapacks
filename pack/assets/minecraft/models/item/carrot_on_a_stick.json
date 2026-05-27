@@ -2,5 +2,19 @@
   "parent": "minecraft:item/handheld_rod",
   "textures": {
     "layer0": "minecraft:item/carrot_on_a_stick"
-  }
+  }, 
+  "overrides": [
+    { 
+      "predicate": { "custom_model_data": 1001 }, 
+      "model": "bens_game:item/domain" 
+    },
+    { 
+      "predicate": { "custom_model_data": 1002 }, 
+      "model": "bens_game:item/fire_staff" 
+    },
+    { 
+      "predicate": { "custom_model_data": 1003 }, 
+      "model": "bens_game:item/zombie_staff" 
+    }
+  ]
 }
