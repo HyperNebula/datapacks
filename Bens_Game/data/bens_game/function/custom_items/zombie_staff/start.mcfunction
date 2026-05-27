@@ -12,3 +12,6 @@ execute as @a[scores={use_wand=1..}] if items entity @s weapon.mainhand carrot_o
 execute as @a[scores={use_wand=1..}] if items entity @s weapon.mainhand carrot_on_a_stick[custom_model_data=1003] run /summon zombie ^ ^ ^-2 {Team:"zombie"}
 execute as @a[scores={use_wand=1..}] if items entity @s weapon.mainhand carrot_on_a_stick[custom_model_data=1003] run /summon zombie ^2 ^ ^ {Team:"zombie"}
 execute as @a[scores={use_wand=1..}] if items entity @s weapon.mainhand carrot_on_a_stick[custom_model_data=1003] run /summon zombie ^-2 ^ ^ {Team:"zombie"}
+
+#schedule end
+schedule function bens_game:custom_items/zombie_staff/end 600t
