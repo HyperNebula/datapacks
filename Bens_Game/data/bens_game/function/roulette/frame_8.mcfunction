@@ -18,4 +18,4 @@ execute as @e[type=armor_stand,name=roulette] if items entity @s weapon.mainhand
 execute as @e[type=armor_stand,name=roulette] unless items entity @s weapon.mainhand minecraft:quartz_block unless items entity @s weapon.mainhand minecraft:green_concrete run function bens_game:roulette/red_win
 
 
-schedule function bens_game:roulette/stop 16t
+schedule function bens_game:roulette/stop 10t

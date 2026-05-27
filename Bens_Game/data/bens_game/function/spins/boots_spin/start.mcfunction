@@ -1,4 +1,21 @@
 tag @e[type=armor_stand,name=bootsSlot] add running
-execute at @e[type=armor_stand,name=bootsSlot] run data merge block ~ ~1 ~ {Items:[{Slot:0b,id:"minecraft:golden_boots",count:1},{Slot:1b,id:"minecraft:diamond_boots",count:1},{Slot:2b,id:"minecraft:iron_boots",count:1}]}
 
-schedule function bens_game:spins/boots_spin/frame_2 4t
+execute at @e[type=armor_stand,name=bootsSlot] run data merge block ~ ~1 ~ {Items:[]}
+execute at @e[type=armor_stand,name=bootsSlot] run loot replace block ~ ~1 ~ container.0 loot bens_game:boots_loottable
+execute at @e[type=armor_stand,name=bootsSlot] run loot replace block ~ ~1 ~ container.1 loot bens_game:boots_loottable
+execute at @e[type=armor_stand,name=bootsSlot] run loot replace block ~ ~1 ~ container.2 loot bens_game:boots_loottable
+
+schedule function bens_game:spins/boots_spin/frames 4t append
+schedule function bens_game:spins/boots_spin/frames 8t append
+schedule function bens_game:spins/boots_spin/frames 12t append
+schedule function bens_game:spins/boots_spin/frames 16t append
+schedule function bens_game:spins/boots_spin/frames 20t append
+schedule function bens_game:spins/boots_spin/frames 24t append
+schedule function bens_game:spins/boots_spin/frames 28t append
+schedule function bens_game:spins/boots_spin/frames 32t append
+schedule function bens_game:spins/boots_spin/frames 36t append
+schedule function bens_game:spins/boots_spin/frames 40t append
+schedule function bens_game:spins/boots_spin/frames 44t append
+schedule function bens_game:spins/boots_spin/frames_end 48t append
+
+schedule function bens_game:spins/boots_spin/stop 88t append
