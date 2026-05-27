@@ -1,8 +1,11 @@
-/scoreboard objectives add deaths playerDeaths
+
+# add scoreboard to track when a player dies
+scoreboard objectives add deaths playerDeaths
 
 #TP players into arena
-TP @p[tag=fighter_red] X Y Z
-TP @p[tag=fighter_black] X Y Z
+tp @p[tag=fighter_red] X Y Z
+tp @p[tag=fighter_black] X Y Z
 
-/clear [tag=fighter_red]
-/clear [tag=fighter_black]
+#clear player inventories (should have been saved in join function)
+clear [tag=fighter_red]
+clear [tag=fighter_black]
