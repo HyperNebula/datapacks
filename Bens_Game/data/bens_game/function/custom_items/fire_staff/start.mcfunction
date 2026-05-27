@@ -1,0 +1,1 @@
+execute as @a[scores={use_wand=1..}] if items entity @s weapon.mainhand carrot_on_a_stick[custom_model_data=1002] run say fire... ah... scary
