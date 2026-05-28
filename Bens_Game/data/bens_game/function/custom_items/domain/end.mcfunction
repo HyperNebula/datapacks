@@ -16,4 +16,4 @@ execute as @e[tag=domain_target] run tag @s remove domain_target
 #teleport back to marker/remove marker and tag
 execute as @a[x=-12,y=-30,z=-97,dx=21,dy=10,dz=21,tag=domain_user] run tp @e[name=user_marker,limit=1]
 execute as @e[type=armor_stand,name=user_marker] run kill @s
-#execute as @a[tag=domain_user] run tag @s remove domain_user
+execute as @a[tag=domain_user] run tag @s remove domain_user

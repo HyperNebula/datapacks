@@ -18,4 +18,4 @@ schedule function bens_game:spins/potion_spin/frames 40t append
 schedule function bens_game:spins/potion_spin/frames 44t append
 schedule function bens_game:spins/potion_spin/frames_end 48t append
 
-schedule function bens_game:spins/weapon_spin/stop 88t append
+schedule function bens_game:spins/potion_spin/stop 88t append
