@@ -1,0 +1,1 @@
+give @p goat_horn[custom_name="Weapon Voucher",item_model="minecraft:tide_armor_trim_smithing_template",instrument={use_duration:5,range:100,sound_event:"block.anvil.place",description:{text:"Lava Chicken Sound"}}] 1

@@ -6,4 +6,9 @@ execute at @e[type=armor_stand,name=weaponSlot] run item replace block ~ ~1 ~ co
 
 
 execute at @e[type=armor_stand,name=weaponSlot] run playsound minecraft:entity.player.levelup master @a[distance=..10] ~ ~ ~ 1 1
-execute at @e[type=armor_stand,name=weaponSlot] run item replace entity @p contents from block ~ ~1 ~ container.0
+
+summon item 0 0 0 {Tags:["temp_give_weapon_item"], Item:{id:"minecraft:stone", count:1}}
+execute at @e[type=armor_stand,name=weaponSlot] run data modify entity @e[type=item,tag=temp_give_weapon_item,limit=1] Item set from block ~ ~1 ~ Items[{Slot:0b}]
+execute at @e[type=armor_stand,name=weaponSlot] run tp @e[type=item,tag=temp_give_weapon_item,limit=1] @e[tag=weapon_give,limit=1]
+
+tag @a remove weapon_give

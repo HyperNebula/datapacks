@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "using_item": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_spear",
+          "components": {
+            "minecraft:item_model": "bens_game:fire_staff"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bens_game:custom_items/fire_staff/use_item"
+  }
+}
+
