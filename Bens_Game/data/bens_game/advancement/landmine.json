@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "using_item": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:item_frame",
+              "components": {
+                "minecraft:item_model": "bens_game:landmine"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bens_game:custom_items/landmine/place"
+  }
+}

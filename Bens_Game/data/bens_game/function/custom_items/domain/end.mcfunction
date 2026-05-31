@@ -1,5 +1,3 @@
-say end
-
 #remove dome
 execute at @e[name=user_marker] run fill ~3 ~3 ~3 ~-3 ~-3 ~-3 air replace minecraft:black_concrete
 execute at @e[name=user_marker] run fill ~4 ~2 ~2 ~-4 ~-2 ~-2 air replace minecraft:black_concrete

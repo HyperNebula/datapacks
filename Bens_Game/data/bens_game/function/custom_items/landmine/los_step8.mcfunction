@@ -1,0 +1,1 @@
+execute at @s facing entity @a[tag=landmine_target,limit=1,sort=nearest] eyes positioned ^ ^ ^4.5 run function bens_game:custom_items/landmine/check_point
