@@ -1,0 +1,1 @@
+execute as @s at @s anchored eyes run function bens_game:custom_items/lightning_bolt/ray_start

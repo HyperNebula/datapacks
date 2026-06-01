@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "using_item": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_spear",
+          "components": {
+            "minecraft:item_model": "bens_game:lightning_bolt"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bens_game:custom_items/lightning_bolt/use_item"
+  }
+}
