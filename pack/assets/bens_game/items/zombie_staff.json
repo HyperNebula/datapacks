@@ -1,6 +1,25 @@
 {
-    "model": {
-        "type": "minecraft:model",
-        "model":"bens_game:item/zombie_staff"
-    }
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "bens_game:item/zombie_staff"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "bens_game:item/zombie_staff_in_hand"
+    },
+    "property": "minecraft:display_context"
+  },
+  "swap_animation_scale": 1.95
 }

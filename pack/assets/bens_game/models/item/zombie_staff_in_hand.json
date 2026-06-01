@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/spear_in_hand",
+  "textures": {
+    "layer0": "bens_game:item/zombie_staff_in_hand"
+  }
+}
