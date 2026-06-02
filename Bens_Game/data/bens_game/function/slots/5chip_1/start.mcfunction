@@ -1,5 +1,5 @@
 tag @e[type=armor_stand,name=5Slot1] add running
-clear @s minecraft:copper_nugget 1
+clear @s minecraft:copper_nugget 5
 
 execute at @e[type=armor_stand,name=5Slot1] run data merge block ~ ~1 ~ {Items:[]}
 execute at @e[type=armor_stand,name=5Slot1] run loot replace block ~ ~1 ~ container.0 loot bens_game:weapon_loottable
