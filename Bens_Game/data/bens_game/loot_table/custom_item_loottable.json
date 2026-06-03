@@ -1,0 +1,167 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "bens_game:domain"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Domain Expansion"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "bens_game:zombie_staff"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Zombie Staff"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:item_frame",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 4
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:entity_data": {
+                  "id": "minecraft:item_frame",
+                  "Invisible": true,
+                  "Invulnerable": false,
+                  "Tags": [
+                    "landmine"
+                  ]
+                },
+                "minecraft:item_model": "bens_game:landmine"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Landmine"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:snowball",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 8
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "bens_game:smokebomb"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Smokebomb"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:golden_spear",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "bens_game:fire_staff"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Fire Staff"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:golden_spear",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "bens_game:lightning_bolt"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Lightning Bolt"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
