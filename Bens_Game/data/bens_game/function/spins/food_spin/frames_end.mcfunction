@@ -9,4 +9,6 @@ execute at @e[type=armor_stand,name=foodSlot] run playsound minecraft:entity.pla
 
 summon item 0 0 0 {Tags:["temp_give_food_item"], Item:{id:"minecraft:stone", count:1}}
 execute at @e[type=armor_stand,name=foodSlot] run data modify entity @e[type=item,tag=temp_give_food_item,limit=1] Item set from block ~ ~1 ~ Items[{Slot:0b}]
-execute at @e[type=armor_stand,name=foodSlot] run tp @e[type=item,tag=temp_give_food_item,limit=1] @p
+execute at @e[type=armor_stand,name=foodSlot] run tp @e[type=item,tag=temp_give_food_item,limit=1] @p[tag=food_give]
+
+tag @a remove food_give

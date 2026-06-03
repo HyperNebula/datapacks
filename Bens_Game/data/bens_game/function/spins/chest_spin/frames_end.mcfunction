@@ -6,4 +6,6 @@ execute at @e[type=armor_stand,name=chestSlot] run item replace block ~ ~1 ~ con
 
 
 execute at @e[type=armor_stand,name=chestSlot] run playsound minecraft:entity.player.levelup master @a[distance=..10] ~ ~ ~ 1 1
-execute at @e[type=armor_stand,name=chestSlot] run item replace entity @p armor.chest from block ~ ~1 ~ container.0
+execute at @e[type=armor_stand,name=chestSlot] run item replace entity @p[tag=chestplate_give] armor.chest from block ~ ~1 ~ container.0
+
+tag @a remove chestplate_give

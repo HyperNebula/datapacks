@@ -1,28 +1,31 @@
 
 #TP players out of arena
-execute as @e[name=fight_pit] run tp @p[tag=fighter_red] X Y Z
-execute as @e[name=fight_pit] run  tp @p[tag=fighter_black] X Y Z
+tp @a[tag=red_fighter] -29 -22 28
+tp @a[tag=black_fighter] -29 -22 26
 
 #restore Inventory
-execute as @e[name=fight_pit] run data modify entity @a[tag=fighter_red] Inventory set from block X Y Z Items
-execute as @e[name=fight_pit] run data modify entity @a[tag=fighter_black] Inventory set from block X Y Z Items
+#execute as @a[tag=red_fighter] run data modify entity @s Inventory set from block X Y Z Items
+#execute as @a[tag=black_fighter] run data modify entity @s Inventory set from block X Y Z Items
+
+#restore players to lobbu team
+team join lobby @a[tag=red_fighter]
+team join lobby @a[tag=black_fighter]
 
 #remove loser tag
-execute as @e[name=fight_pit] run tag @a[scores={deaths=1..}] remove fighter_red
-execute as @e[name=fight_pit] run tag @a[scores={deaths=1..}] remove fighter_black
-
+tag @a[scores={deaths=1..}] remove red_fighter
+tag @a[scores={deaths=1..}] remove black_fighter
 
 #reset death counter
-execute as @e[name=fight_pit] run scoreboard players reset @a deaths
+scoreboard players reset @a deaths
 
 #display win screen
-title @p[tag=fighter_red] title {"bold":true,"color":"red","shadow_color":-5636096,"text":"You Win"}
-title @p[tag=fighter_black] title {"bold":true,"color":"red","shadow_color":-5636096,"text":"You Win"}
+title @a[tag=red_fighter] title {"bold":true,"color":"red","shadow_color":-5636096,"text":"You Win"}
+title @a[tag=black_fighter] title {"bold":true,"color":"red","shadow_color":-5636096,"text":"You Win"}
 
 #give awards
-execute as @e[name=fight_pit] run give @p[tag=fighter_red] minecraft:iron_nugget 2
-execute as @e[name=fight_pit] run give @p[tag=fighter_black] minecraft:iron_nugget 2
+give @a[tag=red_fighter] minecraft:iron_nugget 2
+give @a[tag=black_fighter] minecraft:iron_nugget 2
 
 #remove all tags
-execute as @e[tag=fighter_black] run tag @s remove fighter_black
-execute as @e[tag=fighter_red] run tag @s remove fighter_red
+execute as @e[tag=black_fighter] run tag @s remove black_fighter
+execute as @e[tag=red_fighter] run tag @s remove red_fighter

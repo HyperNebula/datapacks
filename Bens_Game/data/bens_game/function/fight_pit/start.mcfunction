@@ -1,11 +1,12 @@
 
-# add scoreboard to track when a player dies
-scoreboard objectives add deaths playerDeaths
-
 #TP players into arena
-tp @p[tag=fighter_red] X Y Z
-tp @p[tag=fighter_black] X Y Z
+tp @a[tag=red_fighter] -34 -21 36
+tp @a[tag=black_fighter] -34 -21 48
 
 #clear player inventories (should have been saved in join function)
-clear [tag=fighter_red]
-clear [tag=fighter_black]
+#clear @a[tag=red_fighter]
+#clear @a[tag=black_fighter]
+
+#remove them from the lobbu team
+team leave @a[tag=red_fighter]
+team leave @a[tag=black_fighter]

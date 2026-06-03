@@ -1,4 +1,5 @@
 tag @e[type=armor_stand,name=5Slot1] add running
+tag @s add give_5chip1
 clear @s minecraft:copper_nugget 1
 
 execute at @e[type=armor_stand,name=5Slot1] run data merge block ~ ~1 ~ {Items:[]}

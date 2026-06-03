@@ -9,4 +9,6 @@ execute at @e[type=armor_stand,name=consumableSlot] run playsound minecraft:enti
 
 summon item 0 0 0 {Tags:["temp_give_consumable_item"], Item:{id:"minecraft:stone", count:1}}
 execute at @e[type=armor_stand,name=consumableSlot] run data modify entity @e[type=item,tag=temp_give_consumable_item,limit=1] Item set from block ~ ~1 ~ Items[{Slot:0b}]
-execute at @e[type=armor_stand,name=consumableSlot] run tp @e[type=item,tag=temp_give_consumable_item,limit=1] @p
+execute at @e[type=armor_stand,name=consumableSlot] run tp @e[type=item,tag=temp_give_consumable_item,limit=1] @p[tag=consumable_give]
+
+tag @a remove consumable_give

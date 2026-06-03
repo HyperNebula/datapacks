@@ -1,4 +1,6 @@
 tag @e[type=armor_stand,name=foodSlot] add running
+tag @s add food_give
+clear @s minecraft:goat_horn[custom_name="Food Voucher",item_model="minecraft:bolt_armor_trim_smithing_template"] 1
 
 execute at @e[type=armor_stand,name=foodSlot] run data merge block ~ ~1 ~ {Items:[]}
 execute at @e[type=armor_stand,name=foodSlot] run loot replace block ~ ~1 ~ container.0 loot bens_game:food_loottable

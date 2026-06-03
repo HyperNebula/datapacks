@@ -6,4 +6,6 @@ execute at @e[type=armor_stand,name=leggingsSlot] run item replace block ~ ~1 ~ 
 
 
 execute at @e[type=armor_stand,name=leggingsSlot] run playsound minecraft:entity.player.levelup master @a[distance=..10] ~ ~ ~ 1 1
-execute at @e[type=armor_stand,name=leggingsSlot] run item replace entity @p armor.legs from block ~ ~1 ~ container.0
+execute at @e[type=armor_stand,name=leggingsSlot] run item replace entity @p[tag=leggings_give] armor.legs from block ~ ~1 ~ container.0
+
+tag @a remove leggings_give

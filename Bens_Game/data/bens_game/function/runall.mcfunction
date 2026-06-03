@@ -1,6 +1,7 @@
 
 #fight_pit end
-#execute as @a[scores={deaths=1..}] run function bens_game:fight_pit/stop
+execute as @a[scores={deaths=1..},tag=red_fighter] run function bens_game:fight_pit/stop
+execute as @a[scores={deaths=1..},tag=black_fighter] run function bens_game:fight_pit/stop
 
 #blackjack scoring
 #execute as @a[scores={player_score=22..}] run function bens_game:blackjack/player_bust

@@ -1,4 +1,6 @@
 tag @e[type=armor_stand,name=leggingsSlot] add running
+tag @s add leggings_give
+clear @s minecraft:goat_horn[custom_name="Leggings Voucher",item_model="minecraft:host_armor_trim_smithing_template"] 1
 
 execute at @e[type=armor_stand,name=leggingsSlot] run data merge block ~ ~1 ~ {Items:[]}
 execute at @e[type=armor_stand,name=leggingsSlot] run loot replace block ~ ~1 ~ container.0 loot bens_game:leggings_loottable

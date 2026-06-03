@@ -1,4 +1,6 @@
 tag @e[type=armor_stand,name=helmetSlot] add running
+tag @s add helmet_give
+clear @s minecraft:goat_horn[custom_name="Helmet Voucher",item_model="minecraft:wayfinder_armor_trim_smithing_template"] 1
 
 execute at @e[type=armor_stand,name=helmetSlot] run data merge block ~ ~1 ~ {Items:[]}
 execute at @e[type=armor_stand,name=helmetSlot] run loot replace block ~ ~1 ~ container.0 loot bens_game:helmet_loottable

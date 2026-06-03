@@ -9,4 +9,4 @@ execute at @e[type=armor_stand,name=5Slot1] run playsound minecraft:entity.playe
 
 summon item 0 0 0 {Tags:["temp_give_5CHIP1_item"], Item:{id:"minecraft:stone", count:1}}
 execute at @e[type=armor_stand,name=5Slot1] run data modify entity @e[type=item,tag=temp_give_5CHIP1_item,limit=1] Item set from block ~ ~1 ~ Items[{Slot:0b}]
-execute at @e[type=armor_stand,name=5Slot1] run tp @e[type=item,tag=temp_give_5CHIP1_item,limit=1] @p
+execute at @e[type=armor_stand,name=5Slot1] run tp @e[type=item,tag=temp_give_5CHIP1_item,limit=1] @p[tag=give_5chip1]

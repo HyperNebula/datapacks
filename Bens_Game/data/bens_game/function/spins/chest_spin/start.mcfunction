@@ -1,4 +1,6 @@
 tag @e[type=armor_stand,name=chestSlot] add running
+tag @s add chestplate_give
+clear @s minecraft:goat_horn[custom_name="Chestplate Voucher",item_model="minecraft:raiser_armor_trim_smithing_template"] 1
 
 execute at @e[type=armor_stand,name=chestSlot] run data merge block ~ ~1 ~ {Items:[]}
 execute at @e[type=armor_stand,name=chestSlot] run loot replace block ~ ~1 ~ container.0 loot bens_game:chest_loottable

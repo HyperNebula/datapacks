@@ -1,4 +1,6 @@
 tag @e[type=armor_stand,name=bootsSlot] add running
+tag @s add boots_give
+clear @s minecraft:goat_horn[custom_name="Boots Voucher",item_model="minecraft:shaper_armor_trim_smithing_template"] 1
 
 execute at @e[type=armor_stand,name=bootsSlot] run data merge block ~ ~1 ~ {Items:[]}
 execute at @e[type=armor_stand,name=bootsSlot] run loot replace block ~ ~1 ~ container.0 loot bens_game:boots_loottable

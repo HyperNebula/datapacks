@@ -6,4 +6,6 @@ execute at @e[type=armor_stand,name=helmetSlot] run item replace block ~ ~1 ~ co
 
 
 execute at @e[type=armor_stand,name=helmetSlot] run playsound minecraft:entity.player.levelup master @a[distance=..10] ~ ~ ~ 1 1
-execute at @e[type=armor_stand,name=helmetSlot] run item replace entity @p armor.head from block ~ ~1 ~ container.0
+execute at @e[type=armor_stand,name=helmetSlot] run item replace entity @p[tag=helmet_give] armor.head from block ~ ~1 ~ container.0
+
+tag @a remove helmet_give

@@ -1,4 +1,6 @@
 tag @e[type=armor_stand,name=potionSlot] add running
+tag @s add potion_give
+clear @s minecraft:goat_horn[custom_name="Potion Voucher",item_model="minecraft:flow_armor_trim_smithing_template"] 1
 
 execute at @e[type=armor_stand,name=potionSlot] run data merge block ~ ~1 ~ {Items:[]}
 execute at @e[type=armor_stand,name=potionSlot] run loot replace block ~ ~1 ~ container.0 loot bens_game:potion_loottable

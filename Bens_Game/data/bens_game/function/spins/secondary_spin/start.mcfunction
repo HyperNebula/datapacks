@@ -1,4 +1,6 @@
 tag @e[type=armor_stand,name=secondarySlot] add running
+tag @s add secondary_give
+clear @s minecraft:goat_horn[custom_name="Secondary Voucher",item_model="minecraft:flow_armor_trim_smithing_template"] 1
 
 execute at @e[type=armor_stand,name=secondarySlot] run data merge block ~ ~1 ~ {Items:[]}
 execute at @e[type=armor_stand,name=secondarySlot] run loot replace block ~ ~1 ~ container.0 loot bens_game:secondary_loottable
