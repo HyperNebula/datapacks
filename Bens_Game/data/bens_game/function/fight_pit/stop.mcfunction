@@ -23,9 +23,14 @@ title @a[tag=red_fighter] title {"bold":true,"color":"red","shadow_color":-56360
 title @a[tag=black_fighter] title {"bold":true,"color":"red","shadow_color":-5636096,"text":"You Win"}
 
 #give awards
-give @a[tag=red_fighter] minecraft:iron_nugget 2
-give @a[tag=black_fighter] minecraft:iron_nugget 2
+give @a[tag=red_fighter] minecraft:iron_nugget[custom_name="100 chip"] 2
+give @a[tag=black_fighter] minecraft:iron_nugget[custom_name="100 chip"] 2
 
 #remove all tags
 execute as @e[tag=black_fighter] run tag @s remove black_fighter
 execute as @e[tag=red_fighter] run tag @s remove red_fighter
+
+#return buttons
+setblock -31 -22 31 minecraft:polished_blackstone_button[face=floor]
+setblock -34 -22 31 minecraft:polished_blackstone_button[face=floor]
+setblock -37 -22 31 minecraft:polished_blackstone_button[face=floor]

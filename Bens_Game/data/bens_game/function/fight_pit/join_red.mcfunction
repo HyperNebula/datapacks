@@ -3,7 +3,7 @@ execute if entity @e[tag=red_fighter] run title @p title {"bold":true,"color":"d
 execute if entity @e[tag=red_fighter] run return fail
 
 
-execute as @e[name=join_red] run tag @p add red_fighter
-
+execute at @e[name=join_red] as @p run tag @s[tag=!black_fighter] add red_fighter
+title @a[tag=red_fighter] title {"color":"dark_red","text":"Joined Red"}
 
 #data modify block X Y Z Items set from entity @p[tag=red_fighter] Inventory

@@ -7,8 +7,10 @@ execute as @a[scores={deaths=1..},tag=black_fighter] run function bens_game:figh
 #execute as @a[scores={player_score=22..}] run function bens_game:blackjack/player_bust
 #execute as @a[scores={dealer_score=22..}] run function bens_game:blackjack/dealer_bust
 
+execute as @a[tag=playing,scores={deaths=1..}] run function bens_game:control_match/game_death
 
-
+execute store result score pCount playercount if entity @a[tag=playing]
+execute if score pCount playercount matches 1 as @a[tag=playing] run function bens_game:control_match/reset
 
 #--------------------- Custom Items -----------------------#
 
