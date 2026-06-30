@@ -8,3 +8,5 @@ give @s goat_horn[custom_name="Boots Voucher",item_model="minecraft:shaper_armor
 give @s goat_horn[custom_name="Block Voucher",item_model="minecraft:rib_armor_trim_smithing_template",instrument={use_duration:5,range:100,sound_event:"block.anvil.place",description:{text:"Claim some blocks!"}}] 1
 give @s goat_horn[custom_name="Consumable Voucher",item_model="minecraft:spire_armor_trim_smithing_template",instrument={use_duration:5,range:100,sound_event:"block.anvil.place",description:{text:"Claim a consumable!"}}] 1
 give @s goat_horn[custom_name="Potion Voucher",item_model="minecraft:flow_armor_trim_smithing_template",instrument={use_duration:5,range:100,sound_event:"block.anvil.place",description:{text:"Claim a potion!"}}] 1
+
+give @s iron_nugget[custom_name="100 chip"] 2

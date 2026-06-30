@@ -98,7 +98,7 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:item_model": "bens_game:smokebomb"
+                "minecraft:item_model": "bens_game:smoke_bomb"
               }
             },
             {

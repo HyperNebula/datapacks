@@ -10,3 +10,8 @@ tp @a[tag=black_fighter] -34 -21 48
 #remove them from the lobbu team
 team leave @a[tag=red_fighter]
 team leave @a[tag=black_fighter]
+
+#remove buttons
+setblock -31 -22 31 air
+setblock -34 -22 31 air
+setblock -37 -22 31 air
