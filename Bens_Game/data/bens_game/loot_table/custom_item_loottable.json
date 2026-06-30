@@ -98,7 +98,10 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:item_model": "bens_game:smoke_bomb"
+                "minecraft:item_model": "bens_game:smoke_bomb",
+                "minecraft:custom_data": {
+                  "smoke_bomb": true
+                }
               }
             },
             {

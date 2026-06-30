@@ -1,14 +1,12 @@
 
 #fight_pit end
-execute as @a[scores={deaths=1..},tag=red_fighter] run function bens_game:fight_pit/stop
-execute as @a[scores={deaths=1..},tag=black_fighter] run function bens_game:fight_pit/stop
+execute as @a[scores={deaths=1..},tag=red_fighter,tag=!pit_stopping] run function bens_game:fight_pit/delay
+execute as @a[scores={deaths=1..},tag=black_fighter,tag=!pit_stopping] run function bens_game:fight_pit/delay
 
-#blackjack scoring
-#execute as @a[scores={player_score=22..}] run function bens_game:blackjack/player_bust
-#execute as @a[scores={dealer_score=22..}] run function bens_game:blackjack/dealer_bust
+#death and respawn
+execute as @a[tag=playing,scores={respawn_time=5}] run function bens_game:control_match/game_death
 
-execute as @a[tag=playing,scores={deaths=1..}] run function bens_game:control_match/game_death
-
+#winning player
 execute store result score pCount playercount if entity @a[tag=playing]
 execute if score pCount playercount matches 1 as @a[tag=playing] run function bens_game:control_match/reset
 

@@ -11,6 +11,10 @@ tp @a[tag=black_fighter] -29 -22 26
 team join lobby @a[tag=red_fighter]
 team join lobby @a[tag=black_fighter]
 
+#return saturation
+effect give @a[tag=red_fighter] saturation infinite 0 true
+effect give @a[tag=black_fighter] saturation infinite 0 true
+
 #remove loser tag
 tag @a[scores={deaths=1..}] remove red_fighter
 tag @a[scores={deaths=1..}] remove black_fighter
@@ -34,3 +38,5 @@ execute as @e[tag=red_fighter] run tag @s remove red_fighter
 setblock -31 -22 31 minecraft:polished_blackstone_button[face=floor]
 setblock -34 -22 31 minecraft:polished_blackstone_button[face=floor]
 setblock -37 -22 31 minecraft:polished_blackstone_button[face=floor]
+
+tag @a remove pit_stopping
