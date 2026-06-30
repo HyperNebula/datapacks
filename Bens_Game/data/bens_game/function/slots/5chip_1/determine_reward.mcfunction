@@ -1,5 +1,5 @@
 #gunpowder
-execute at @e[type=armor_stand,name=5Slot1] run execute if items block ~ ~1 ~ container.0 minecraft:feather run clear @s minecraft:copper_nugget[custom_name="5 chip"] 5
+execute at @e[type=armor_stand,name=5Slot1] run execute if items block ~ ~1 ~ container.0 minecraft:gunpowder run clear @s minecraft:copper_nugget[custom_name="5 chip"] 5
 
 #feather
 execute at @e[type=armor_stand,name=5Slot1] run execute if items block ~ ~1 ~ container.0 minecraft:feather run give @s minecraft:copper_nugget[custom_name="5 chip"] 2

@@ -12,3 +12,4 @@ clear @a gold_nugget
 gamemode survival @a
 tag @a add playing
 team empty lobby
+team join NoNames @a
