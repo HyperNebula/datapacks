@@ -1,6 +1,7 @@
 advancement revoke @s only bens_game:landmine
 
 
-execute as @e[tag=landmine] run data merge entity @s[type=item_frame,tag=landmine] {Invulnerable:1b,Invisible:1b,Item:{id:"minecraft:item_frame",count:1,components:{"minecraft:item_model":"bens_game:landmine"}}}
-
-schedule function bens_game:custom_items/landmine/activate 100t
+execute as @e[type=item_frame,tag=landmine,sort=nearest,limit=1] run data merge entity @s {Invulnerable:1b,Invisible:1b,Item:{id:"minecraft:item_frame",count:1,components:{"minecraft:item_model":"bens_game:landmine"}}}
+execute store result score #this timestamp run time query gametime
+execute as @e[type=item_frame,tag=landmine,sort=nearest,limit=1] run scoreboard players operation @s timestamp = #this timestamp
+execute as @e[type=item_frame,tag=landmine,sort=nearest,limit=1] run scoreboard players add @s timestamp 100

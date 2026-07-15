@@ -10,3 +10,5 @@ give @s goat_horn[custom_name="Consumable Voucher",item_model="minecraft:spire_a
 give @s goat_horn[custom_name="Potion Voucher",item_model="minecraft:flow_armor_trim_smithing_template",instrument={use_duration:5,range:100,sound_event:"block.anvil.place",description:{text:"Claim a potion!"}}] 1
 
 give @s iron_nugget[custom_name="100 chip"] 2
+
+function bens_game:shop/restock

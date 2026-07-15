@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "interact": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:interaction",
+                    "nbt": "{Tags:[\"enchant5click\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "bens_game:shop/buy_enchant5"
+    }
+}
