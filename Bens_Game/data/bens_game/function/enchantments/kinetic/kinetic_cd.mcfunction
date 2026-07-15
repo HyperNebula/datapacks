@@ -1,0 +1,1 @@
+execute as @s run scoreboard players set @s kinetic 0

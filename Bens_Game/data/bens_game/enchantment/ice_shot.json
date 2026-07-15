@@ -1,6 +1,6 @@
 {
   "description": {
-    "text": "Creeper Shot"
+    "text": "Ice Shot"
   },
   "supported_items": "#minecraft:enchantable/bow",
   "weight": 2,
@@ -24,7 +24,7 @@
         "affected": "victim",
         "effect": {
           "type": "minecraft:run_function",
-          "function": "bens_game:enchantments/creeper_shot/creeper_shot"
+          "function": "bens_game:enchantments/ice_shot/ice_shot"
         }
       }
     ]

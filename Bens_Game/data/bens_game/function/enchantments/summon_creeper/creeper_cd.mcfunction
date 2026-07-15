@@ -1,0 +1,1 @@
+execute as @s run scoreboard players set @s creeper_shot 0

@@ -1,0 +1,7 @@
+
+particle portal ~ ~ ~ 0 0 0 0 2 normal
+
+execute unless entity @e[tag=ender,nbt=inGround:1b] run schedule function enchantments/ender_shot/pending 2
+
+execute if entity @e[tag=ender,nbt=inGround:1b] run execute on owner run tp @s @n[tag=ender,nbt=inGround:1b]
+execute if entity @e[tag=ender,nbt=inGround:1b] run kill
