@@ -1,0 +1,60 @@
+{
+  "description": "",
+  "supported_items": "#minecraft:enchantable/armor",
+  "primary_items": "#minecraft:enchantable/armor",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "effect": {
+          "type": "minecraft:play_sound",
+          "sound": "minecraft:block.slime_block.place",
+          "volume": 1,
+          "pitch": 1
+        },
+        "enchanted": "attacker",
+        "affected": "attacker"
+      },
+      {
+        "effect": {
+          "type": "minecraft:spawn_particles",
+          "particle": {
+            "type": "minecraft:item_slime"
+          },
+          "horizontal_position": {
+            "type": "entity_position"
+          },
+          "vertical_position": {
+            "type": "entity_position"
+          },
+          "horizontal_velocity": {},
+          "vertical_velocity": {
+            "base": 0.5
+          },
+          "speed": 0.5
+        },
+        "enchanted": "attacker",
+        "affected": "attacker"
+      }
+    ],
+    "minecraft:damage_protection": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": 4
+        }
+      }
+    ]
+  }
+}
