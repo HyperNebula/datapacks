@@ -1,18 +1,18 @@
 {
   "criteria": {
-    "using_item": {
+    "placed_item": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
         "item": {
           "items": "minecraft:item_frame",
           "predicates": {
-            "minecraft:custom_data": "{landmine:1b}"
+            "minecraft:custom_data": "{snare:1b}"
           }
         }
       }
     }
   },
   "rewards": {
-    "function": "bens_game:custom_items/landmine/place"
+    "function": "bens_game:custom_items/snare/place"
   }
 }

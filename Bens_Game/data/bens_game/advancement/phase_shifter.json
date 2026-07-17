@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "using_item": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:wooden_spear",
+          "predicates": {
+            "minecraft:custom_data": "{phase_shifter:1b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bens_game:custom_items/phase_shifter/use_item"
+  }
+}
