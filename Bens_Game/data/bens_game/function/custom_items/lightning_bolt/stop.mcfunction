@@ -1,0 +1,1 @@
+tag @e[tag=lightning_user] remove lightning_user
