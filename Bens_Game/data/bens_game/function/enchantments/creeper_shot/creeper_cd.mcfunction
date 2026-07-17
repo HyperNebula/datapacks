@@ -1,0 +1,1 @@
+execute as @e[scores={creeper_shot=1}] run scoreboard players set @s creeper_shot 0

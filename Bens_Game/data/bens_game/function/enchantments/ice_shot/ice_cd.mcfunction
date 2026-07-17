@@ -1,1 +1,1 @@
-execute as @s run scoreboard players set @s ice_shot 0
+execute as @e[scores={ice_shot=1}] run scoreboard players set @s ice_shot 0

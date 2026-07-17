@@ -1,7 +1,6 @@
+say weee
+#execute as @e[tag=ender,nbt=!{inGround:1b}] at @s run particle portal ~ ~ ~ 0.1 0.1 0.1 0.1 10 normal
+#execute as @e[tag=ender,nbt=!{inGround:1b}] at @s run particle portal ~ ~ ~ 0.1 0.1 0.1 0.1 10 normal
+#execute as @e[tag=ender,nbt=!{inGround:1b}] at @s run particle portal ~ ~ ~ 0.1 0.1 0.1 0.1 10 normal
 
-particle portal ~ ~ ~ 0 0 0 0 2 normal
-
-execute unless entity @e[tag=ender,nbt=inGround:1b] run schedule function enchantments/ender_shot/pending 2
-
-execute if entity @e[tag=ender,nbt=inGround:1b] run execute on owner run tp @s @n[tag=ender,nbt=inGround:1b]
-execute if entity @e[tag=ender,nbt=inGround:1b] run kill
+#execute if entity @e[tag=ender,nbt=!{inGround:1b}] run schedule function bens_game:enchantments/ender_shot/pending 1 replace
