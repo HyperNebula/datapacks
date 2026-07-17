@@ -7,4 +7,5 @@ scoreboard objectives add lightning_charge dummy
 #enchants
 scoreboard objectives add creeper_shot dummy
 scoreboard objectives add ice_shot dummy
+scoreboard objectives add dash dummy
 

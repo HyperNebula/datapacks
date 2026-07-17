@@ -1,0 +1,32 @@
+{
+  "description": {
+    "text": "Deflection"
+  },
+  "supported_items": "#bens_game:enchantable/deflection",
+  "weight": 5,
+  "max_level": 1,
+  "min_cost": {
+    "base": 15,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 40,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "mainhand",
+    "offhand",
+    "chest"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "bens_game:enchantments/deflection/deflect"
+        }
+      }
+    ]
+  }
+}

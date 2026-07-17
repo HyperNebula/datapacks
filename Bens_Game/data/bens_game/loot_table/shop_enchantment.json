@@ -11,13 +11,13 @@
                         {
                             "function": "minecraft:set_enchantments",
                             "enchantments": {
-                                "minecraft:sharpness": 5
+                                "minecraft:sharpness": 3
                             }
                         },
                         {
                             "function": "minecraft:set_name",
                             "name": {
-                                "text": "Sharpness V",
+                                "text": "Sharpness",
                                 "color": "yellow",
                                 "italic": false
                             }
@@ -38,28 +38,7 @@
                         {
                             "function": "minecraft:set_name",
                             "name": {
-                                "text": "Protection IV",
-                                "color": "yellow",
-                                "italic": false
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:enchanted_book",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_enchantments",
-                            "enchantments": {
-                                "minecraft:efficiency": 5
-                            }
-                        },
-                        {
-                            "function": "minecraft:set_name",
-                            "name": {
-                                "text": "Efficiency V",
+                                "text": "Protection",
                                 "color": "yellow",
                                 "italic": false
                             }
@@ -80,7 +59,448 @@
                         {
                             "function": "minecraft:set_name",
                             "name": {
-                                "text": "Lifesteal 1",
+                                "text": "Lifesteal",
+                                "color": "yellow",
+                                "italic": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:enchanted_book",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "bens_game:blinding_spikes": 1
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Blinding Spikes",
+                                "color": "yellow",
+                                "italic": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:enchanted_book",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "bens_game:blink_strike": 1
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Blink Strike",
+                                "color": "yellow",
+                                "italic": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:enchanted_book",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "bens_game:cloaking": 1
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Cloaking",
+                                "color": "yellow",
+                                "italic": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:enchanted_book",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "bens_game:combo": 1
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Combo",
+                                "color": "yellow",
+                                "italic": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:enchanted_book",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "bens_game:coocoon": 1
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Coocoon",
+                                "color": "yellow",
+                                "italic": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:enchanted_book",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "bens_game:creeper_shot": 1
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Creeper Shot",
+                                "color": "yellow",
+                                "italic": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:enchanted_book",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "bens_game:dash": 1
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Dash",
+                                "color": "yellow",
+                                "italic": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:enchanted_book",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "bens_game:deflection": 1
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Deflection",
+                                "color": "yellow",
+                                "italic": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:enchanted_book",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "bens_game:ender_shot": 1
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Ender Shot",
+                                "color": "yellow",
+                                "italic": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:enchanted_book",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "bens_game:explosive_shot": 1
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Explosive Shot",
+                                "color": "yellow",
+                                "italic": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:enchanted_book",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "bens_game:frost": 1
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Frost",
+                                "color": "yellow",
+                                "italic": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:enchanted_book",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "bens_game:gravity_well": 1
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Gravity Well",
+                                "color": "yellow",
+                                "italic": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:enchanted_book",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "bens_game:ice_shot": 1
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Ice Shot",
+                                "color": "yellow",
+                                "italic": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:enchanted_book",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "bens_game:kinetic": 1
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Kinetic",
+                                "color": "yellow",
+                                "italic": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:enchanted_book",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "bens_game:pull": 1
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Pull",
+                                "color": "yellow",
+                                "italic": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:enchanted_book",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "bens_game:spring_step": 1
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Spring Step",
+                                "color": "yellow",
+                                "italic": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:enchanted_book",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "bens_game:squishy": 1
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Squishy",
+                                "color": "yellow",
+                                "italic": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:enchanted_book",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "bens_game:swap_shot": 1
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Swap Shot",
+                                "color": "yellow",
+                                "italic": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:enchanted_book",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "bens_game:uppercut": 1
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Uppercut",
+                                "color": "yellow",
+                                "italic": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:enchanted_book",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "bens_game:venom": 1
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Venom",
+                                "color": "yellow",
+                                "italic": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:enchanted_book",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "bens_game:vitality": 1
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Vitality",
                                 "color": "yellow",
                                 "italic": false
                             }

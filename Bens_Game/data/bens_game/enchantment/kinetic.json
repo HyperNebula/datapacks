@@ -1,0 +1,34 @@
+{
+  "description": {
+    "text": "Kinetic"
+  },
+  "exclusive_set": "#minecraft:exclusive_set/armor",
+  "supported_items": "#minecraft:enchantable/chest_armor",
+  "primary_items": "#minecraft:enchantable/chest_armor",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "chest"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "enchanted": "victim",
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "bens_game:enchants/kinetic/kinetic"
+        }
+      }
+    ]
+  }
+}

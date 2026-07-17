@@ -1,3 +1,12 @@
+scoreboard objectives add cloak_id dummy
+scoreboard objectives add cloak_cd dummy
+scoreboard objectives add dash_cd dummy
+scoreboard objectives add coocoon_cd dummy
+scoreboard objectives add pull_cd dummy
+scoreboard objectives add cloak_dmg minecraft.custom:minecraft.damage_dealt
+scoreboard objectives add combo_hits dummy
+scoreboard objectives add combo_timer dummy
+execute as @a unless score @s cloak_id matches 1.. run function bens_game:init_player
 
 #fight_pit end
 execute as @a[scores={deaths=1..},tag=red_fighter,tag=!pit_stopping] run function bens_game:fight_pit/delay
@@ -27,3 +36,46 @@ execute as @e[tag=landmine,tag=active] at @s if entity @p[distance=..4] run func
 execute as @e[type=snowball,nbt={Item:{components:{"minecraft:custom_data":{smoke_bomb:1b}}}}] run function bens_game:custom_items/smoke_bomb/start
 
 scoreboard players set @a[scores={use_wand=1..}] use_wand 0
+
+#--------------------- Enchantments -----------------------#
+# Check cloaked players and uncloak them if they stop sneaking
+execute as @a[tag=cloaking] unless predicate bens_game:is_sneaking run function bens_game:enchantments/cloaking/stop
+
+# Check if cloaked players attacked someone
+execute as @a[tag=cloaking,scores={cloak_dmg=1..}] run function bens_game:enchantments/cloaking/stop
+
+# Re-apply invisibility to cloaking players so it doesn't expire
+execute as @a[tag=cloaking] run effect give @s minecraft:invisibility 2 0 true
+
+# Manage cooldowns
+execute as @a[scores={cloak_cd=1..}] run scoreboard players remove @s cloak_cd 1
+
+execute as @a[scores={dash_cd=1..}] run scoreboard players remove @s dash_cd 1
+execute as @a[scores={dash_cd=0}] at @s run playsound entity.breeze.charge ambient @s ~ ~ ~ 1 1
+execute as @a[scores={dash_cd=0}] run scoreboard players reset @s dash_cd
+
+execute as @a[scores={coocoon_cd=1..}] run scoreboard players remove @s coocoon_cd 1
+execute as @a[scores={coocoon_cd=0}] at @s run playsound entity.breeze.charge ambient @s ~ ~ ~ 1 1
+execute as @a[scores={coocoon_cd=0}] run scoreboard players reset @s coocoon_cd
+
+execute as @a[scores={pull_cd=1..}] run scoreboard players remove @s pull_cd 1
+execute as @a[scores={pull_cd=0}] at @s run playsound entity.ravager.stunned ambient @s ~ ~ ~ 1 1
+execute as @a[scores={pull_cd=0}] run scoreboard players reset @s pull_cd
+
+scoreboard players reset @a cloak_dmg
+
+# Manage combo timers
+execute as @a[scores={combo_timer=1..}] run scoreboard players remove @s combo_timer 1
+execute as @a[scores={combo_timer=0}] run scoreboard players reset @s combo_hits
+execute as @a[scores={combo_timer=0}] run scoreboard players reset @s combo_timer
+
+# Manage Gravity Wells
+# Trigger on block hits
+execute as @e[type=arrow,tag=gravity_arrow,nbt={inGround:1b}] at @s run summon area_effect_cloud ~ ~ ~ {Duration:60,Tags:["gravity_center"]}
+execute as @e[type=arrow,tag=gravity_arrow,nbt={inGround:1b}] at @s run particle portal ~ ~1 ~ 1 1 1 0.1 100
+execute as @e[type=arrow,tag=gravity_arrow,nbt={inGround:1b}] at @s run playsound minecraft:block.end_portal_frame.fill block @a ~ ~ ~ 1 0.5
+execute as @e[type=arrow,tag=gravity_arrow,nbt={inGround:1b}] run kill @s
+
+# Continuous pull logic
+execute as @e[tag=gravity_center] at @s run particle portal ~ ~0.5 ~ 1 1 1 0 10
+execute as @e[tag=gravity_center] at @s run launch @e[distance=0.1..3,type=!item] toward @s 0.5

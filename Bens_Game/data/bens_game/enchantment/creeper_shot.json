@@ -2,7 +2,10 @@
   "description": {
     "text": "Creeper Shot"
   },
-  "supported_items": "#minecraft:enchantable/bow",
+  "supported_items": [
+      "minecraft:bow",
+      "minecraft:crossbow"
+    ],
   "weight": 2,
   "max_level": 1,
   "min_cost": {
@@ -15,7 +18,8 @@
   },
   "anvil_cost": 4,
   "slots": [
-    "mainhand"
+    "mainhand",
+        "offhand"
   ],
   "effects": {
     "minecraft:post_attack": [

@@ -1,11 +1,11 @@
 {
   "description": {
-    "text": "Ender Shot"
+    "text": "Gravity Well"
   },
   "supported_items": [
-      "minecraft:bow",
-      "minecraft:crossbow"
-    ],
+    "minecraft:bow",
+    "minecraft:crossbow"
+  ],
   "weight": 5,
   "max_level": 1,
   "min_cost": {
@@ -19,14 +19,14 @@
   "anvil_cost": 4,
   "slots": [
     "mainhand",
-        "offhand"
+    "offhand"
   ],
   "effects": {
     "minecraft:projectile_spawned": [
       {
         "effect": {
           "type": "minecraft:run_function",
-          "function": "bens_game:enchantments/ender_shot/shoot"
+          "function": "bens_game:enchantments/gravity_well/shoot"
         }
       }
     ],
@@ -36,7 +36,7 @@
         "affected": "victim",
         "effect": {
           "type": "minecraft:run_function",
-          "function": "bens_game:enchantments/ender_shot/ender_shot"
+          "function": "bens_game:enchantments/gravity_well/hit"
         }
       }
     ]

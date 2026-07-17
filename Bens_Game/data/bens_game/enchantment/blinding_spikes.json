@@ -1,0 +1,43 @@
+{
+  "description": {
+    "text": "Blinding Spikes"
+  },
+  "supported_items": "#minecraft:enchantable/armor",
+  "weight": 2,
+  "max_level": 1,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "head",
+    "chest",
+    "legs",
+    "feet"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "enchanted": "victim",
+        "affected": "attacker",
+        "requirements": {
+          "condition": "minecraft:random_chance",
+          "chance": 0.5
+        },
+        "effect": {
+          "type": "minecraft:apply_mob_effect",
+          "to_apply": "minecraft:blindness",
+          "min_duration": 2.0,
+          "max_duration": 4.0,
+          "min_amplifier": 0.0,
+          "max_amplifier": 0.0
+        }
+      }
+    ]
+  }
+}

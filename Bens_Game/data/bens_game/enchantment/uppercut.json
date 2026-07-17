@@ -1,25 +1,21 @@
 {
   "description": {
-    "text": "Ice Shot"
+    "text": "Uppercut"
   },
-  "supported_items": [
-      "minecraft:bow",
-      "minecraft:crossbow"
-    ],
+  "supported_items": "#minecraft:enchantable/weapon",
   "weight": 2,
   "max_level": 1,
   "min_cost": {
-    "base": 20,
-    "per_level_above_first": 0
+    "base": 15,
+    "per_level_above_first": 15
   },
   "max_cost": {
-    "base": 50,
-    "per_level_above_first": 0
+    "base": 45,
+    "per_level_above_first": 15
   },
   "anvil_cost": 4,
   "slots": [
-    "mainhand",
-        "offhand"
+    "mainhand"
   ],
   "effects": {
     "minecraft:post_attack": [
@@ -28,7 +24,7 @@
         "affected": "victim",
         "effect": {
           "type": "minecraft:run_function",
-          "function": "bens_game:enchantments/ice_shot/ice_shot"
+          "function": "bens_game:enchantments/uppercut/moveup"
         }
       }
     ]
