@@ -73,7 +73,10 @@
                     "landmine"
                   ]
                 },
-                "minecraft:item_model": "bens_game:landmine"
+                "minecraft:item_model": "bens_game:landmine",
+                "minecraft:custom_data": {
+                  "landmine": true
+                }
               }
             },
             {
@@ -81,6 +84,42 @@
               "name": [
                 {
                   "text": "Landmine"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:item_frame",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 4
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:entity_data": {
+                  "id": "minecraft:item_frame",
+                  "Invisible": true,
+                  "Invulnerable": false,
+                  "Tags": [
+                    "snare"
+                  ]
+                },
+                "minecraft:item_model": "bens_game:snare",
+                "minecraft:custom_data": {
+                  "snare": true
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Snare Trap"
                 }
               ]
             }
@@ -159,6 +198,117 @@
               "name": [
                 {
                   "text": "Lightning Bolt"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "bens_game:grapple"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Grappling Hook",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "bens_game:phase_shifter"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Phase Shifter",
+                  "color": "light_purple",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "bens_game:repulsion_totem"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Repulsion Totem",
+                  "color": "aqua",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:snowball",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 8
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "bens_game:tox_gas",
+                "minecraft:custom_data": {
+                  "tox_gas": true
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Tox Gas Grenade",
+                  "color": "dark_green",
+                  "italic": false
                 }
               ]
             }

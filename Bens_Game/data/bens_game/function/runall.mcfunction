@@ -1,11 +1,3 @@
-scoreboard objectives add cloak_id dummy
-scoreboard objectives add cloak_cd dummy
-scoreboard objectives add dash_cd dummy
-scoreboard objectives add coocoon_cd dummy
-scoreboard objectives add pull_cd dummy
-scoreboard objectives add cloak_dmg minecraft.custom:minecraft.damage_dealt
-scoreboard objectives add combo_hits dummy
-scoreboard objectives add combo_timer dummy
 execute as @a unless score @s cloak_id matches 1.. run function bens_game:init_player
 
 #fight_pit end
@@ -31,6 +23,10 @@ execute as @a[scores={use_wand=1..}] if items entity @s weapon.mainhand carrot_o
 execute store result score #this timestamp run time query gametime
 execute as @e[tag=landmine,tag=!active] if score @s timestamp <= #this timestamp run function bens_game:custom_items/landmine/activate
 execute as @e[tag=landmine,tag=active] at @s if entity @p[distance=..4] run function bens_game:custom_items/landmine/check_targets
+
+#snare
+execute as @e[tag=snare,tag=!active] if score @s timestamp <= #this timestamp run function bens_game:custom_items/snare/activate
+execute as @e[tag=snare,tag=active] at @s if entity @p[distance=..4] run function bens_game:custom_items/snare/check_targets
 
 #smoke_bomb
 execute as @e[type=snowball,nbt={Item:{components:{"minecraft:custom_data":{smoke_bomb:1b}}}}] run function bens_game:custom_items/smoke_bomb/start
@@ -64,6 +60,23 @@ execute as @a[scores={coocoon_cd=0}] run scoreboard players reset @s coocoon_cd
 execute as @a[scores={pull_cd=1..}] run scoreboard players remove @s pull_cd 1
 execute as @a[scores={pull_cd=0}] at @s run playsound entity.ravager.stunned ambient @s ~ ~ ~ 1 1
 execute as @a[scores={pull_cd=0}] run scoreboard players reset @s pull_cd
+
+execute as @a[scores={grapple_cd=1..}] run scoreboard players remove @s grapple_cd 1
+execute as @a[scores={grapple_cd=0}] at @s run playsound entity.breeze.charge ambient @s ~ ~ ~ 1 1
+execute as @a[scores={grapple_cd=0}] run scoreboard players reset @s grapple_cd
+
+execute as @a[scores={phase_cd=1..}] run scoreboard players remove @s phase_cd 1
+execute as @a[scores={phase_cd=0}] at @s run playsound entity.breeze.charge ambient @s ~ ~ ~ 1 1
+execute as @a[scores={phase_cd=0}] run scoreboard players reset @s phase_cd
+
+execute as @a[scores={repulsion_cd=1..}] run scoreboard players remove @s repulsion_cd 1
+execute as @a[scores={repulsion_cd=0}] at @s run playsound entity.breeze.charge ambient @s ~ ~ ~ 1 1
+execute as @a[scores={repulsion_cd=0}] run scoreboard players reset @s repulsion_cd
+
+execute as @a[scores={snare_timer=1..}] run scoreboard players remove @s snare_timer 1
+execute as @a[scores={snare_timer=0}] run attribute @s minecraft:gravity base reset
+execute as @a[scores={snare_timer=0}] run scoreboard players reset @s snare_timer
+
 
 scoreboard players reset @a cloak_dmg
 

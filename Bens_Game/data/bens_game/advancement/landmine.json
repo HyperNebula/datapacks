@@ -3,17 +3,12 @@
     "using_item": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:match_tool",
-            "predicate": {
-              "items": "minecraft:item_frame",
-              "components": {
-                "minecraft:item_model": "bens_game:landmine"
-              }
-            }
+        "item": {
+          "items": "minecraft:item_frame",
+          "predicates": {
+            "minecraft:custom_data": "{landmine:1b}"
           }
-        ]
+        }
       }
     }
   },

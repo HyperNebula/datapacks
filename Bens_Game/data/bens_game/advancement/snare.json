@@ -1,12 +1,12 @@
 {
   "criteria": {
     "placed_item": {
-      "trigger": "minecraft:placed_block",
+      "trigger": "minecraft:item_used_on_block",
       "conditions": {
         "item": {
           "items": "minecraft:item_frame",
-          "components": {
-            "minecraft:item_model": "bens_game:snare"
+          "predicates": {
+            "minecraft:custom_data": "{snare:1b}"
           }
         }
       }
