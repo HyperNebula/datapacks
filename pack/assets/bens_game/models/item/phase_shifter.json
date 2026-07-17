@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "bens_game:item/phase_shifter"
+                 },
+    "parent":  "minecraft:item/generated"
+}

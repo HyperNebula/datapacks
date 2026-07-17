@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "placed_item": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "items": "minecraft:item_frame",
+          "components": {
+            "minecraft:item_model": "bens_game:snare"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bens_game:custom_items/snare/place"
+  }
+}

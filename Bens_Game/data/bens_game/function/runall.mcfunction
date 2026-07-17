@@ -35,6 +35,9 @@ execute as @e[tag=landmine,tag=active] at @s if entity @p[distance=..4] run func
 #smoke_bomb
 execute as @e[type=snowball,nbt={Item:{components:{"minecraft:custom_data":{smoke_bomb:1b}}}}] run function bens_game:custom_items/smoke_bomb/start
 
+#tox_gas
+execute as @e[type=snowball,nbt={Item:{components:{"minecraft:custom_data":{tox_gas:1b}}}}] run function bens_game:custom_items/tox_gas/start
+
 scoreboard players set @a[scores={use_wand=1..}] use_wand 0
 
 #--------------------- Enchantments -----------------------#

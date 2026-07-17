@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "bens_game:item/repulsion_totem"
+                 },
+    "parent":  "minecraft:item/generated"
+}

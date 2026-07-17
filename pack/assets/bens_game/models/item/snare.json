@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "bens_game:item/snare"
+                 },
+    "parent":  "minecraft:item/generated"
+}
