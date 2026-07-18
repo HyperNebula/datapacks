@@ -6,8 +6,8 @@
                 "item": {
                     "items": "minecraft:goat_horn",
                     "components": {
-                        "minecraft:custom_name": "Time Slow",
-                        "minecraft:item_model": "minecraft:time_slow"
+                        "minecraft:custom_name": "Custom Item Voucher",
+                        "minecraft:item_model": "minecraft:wild_armor_trim_smithing_template"
                     }
                 }
             }
@@ -15,6 +15,6 @@
     },
     "rewards": {
         "loot": [],
-        "function": "bens_game:custom_items/time_slow/use_item"
+        "function": "bens_game:spins/custom_item_spin/trigger_start"
     }
 }

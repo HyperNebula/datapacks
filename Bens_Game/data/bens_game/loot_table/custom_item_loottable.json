@@ -313,6 +313,39 @@
               ]
             }
           ]
+        }, {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:goat_horn",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:instrument": {
+                  "description": {"text": "Portal Gun", "color": "gray"},
+                  "use_duration": 0.05,
+                  "range": 20,
+                  "sound_event": "item.spear.lunge_1"
+                },
+                "minecraft:item_model": "bens_game:portal_gun",
+                "minecraft:use_cooldown": {
+                  "seconds": 2
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Portal Gun"
+                }
+              ]
+            }
+          ]
         }
       ]
     }
