@@ -1,7 +1,7 @@
 {
   "description": {
     "translate": "enchantment.custom.crouch_trigger",
-    "fallback": "coocoon"
+    "fallback": "Cocoon"
   },
   "supported_items": "#minecraft:enchantable/armor",
   "primary_items": "#minecraft:enchantable/armor",

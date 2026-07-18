@@ -4,7 +4,7 @@
       "trigger": "minecraft:using_item",
       "conditions": {
         "item": {
-          "items": "minecraft:carrot_on_a_stick",
+          "items": "minecraft:goat_horn",
           "components": {
             "minecraft:item_model": "bens_game:portal_gun"
           }

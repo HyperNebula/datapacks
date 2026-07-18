@@ -19,6 +19,7 @@ scoreboard objectives add dash_cd dummy
 scoreboard objectives add coocoon_cd dummy
 scoreboard objectives add pull_cd dummy
 scoreboard objectives add grapple_cd dummy
+scoreboard objectives add grapple_fall_timer dummy
 scoreboard objectives add phase_cd dummy
 scoreboard objectives add repulsion_cd dummy
 scoreboard objectives add snare_timer dummy

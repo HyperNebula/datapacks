@@ -206,7 +206,7 @@
         {
           "type": "item",
           "weight": 1,
-          "name": "minecraft:carrot_on_a_stick",
+          "name": "minecraft:wooden_spear",
           "functions": [
             {
               "function": "set_count",
@@ -215,7 +215,10 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:item_model": "bens_game:grapple"
+                "minecraft:item_model": "bens_game:grapple",
+                "minecraft:custom_data": {
+                  "grapple": true
+                }
               }
             },
             {
@@ -233,7 +236,7 @@
         {
           "type": "item",
           "weight": 1,
-          "name": "minecraft:carrot_on_a_stick",
+          "name": "minecraft:wooden_spear",
           "functions": [
             {
               "function": "set_count",
@@ -242,7 +245,10 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:item_model": "bens_game:phase_shifter"
+                "minecraft:item_model": "bens_game:phase_shifter",
+                "minecraft:custom_data": {
+                  "phase_shifter": true
+                }
               }
             },
             {
@@ -260,7 +266,7 @@
         {
           "type": "item",
           "weight": 1,
-          "name": "minecraft:carrot_on_a_stick",
+          "name": "minecraft:wooden_spear",
           "functions": [
             {
               "function": "set_count",
@@ -269,7 +275,10 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:item_model": "bens_game:repulsion_totem"
+                "minecraft:item_model": "bens_game:repulsion_totem",
+                "minecraft:custom_data": {
+                  "repulsion_totem": true
+                }
               }
             },
             {
@@ -309,6 +318,43 @@
                   "text": "Tox Gas Grenade",
                   "color": "dark_green",
                   "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:goat_horn",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:instrument": {
+                  "description": {
+                    "text": "Portal Gun",
+                    "color": "gray"
+                  },
+                  "use_duration": 0.05,
+                  "range": 20,
+                  "sound_event": "item.spear.lunge_1"
+                },
+                "minecraft:item_model": "bens_game:portal_gun",
+                "minecraft:use_cooldown": {
+                  "seconds": 2
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Portal Gun"
                 }
               ]
             }

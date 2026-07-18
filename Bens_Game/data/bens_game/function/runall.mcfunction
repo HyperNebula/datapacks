@@ -15,8 +15,8 @@ execute if score pCount playercount matches 1 as @a[tag=playing] run function be
 
 #portal_gun
 execute as @a[scores={portal_delay=1..}] run scoreboard players remove @s dash_cd 1
-execute as @a[scores={portal_delay=0}] at @s run playsound entity.breeze.charge ambient @s ~ ~ ~ 1 1
-execute as @a[scores={portal_delay=0}] run scoreboard players reset @s dash_cd
+#execute as @a[scores={portal_delay=0}] at @s run playsound entity.breeze.charge ambient @s ~ ~ ~ 1 1
+#execute as @a[scores={portal_delay=0}] run scoreboard players reset @s dash_cd
 
 #time_stop
 execute as @a[scores={time_slow_cd=1..}] run scoreboard players remove @s time_slow_cd 1
@@ -77,6 +77,10 @@ execute as @a[scores={grapple_cd=1..}] run scoreboard players remove @s grapple_
 execute as @a[scores={grapple_cd=0}] at @s run playsound entity.breeze.charge ambient @s ~ ~ ~ 1 1
 execute as @a[scores={grapple_cd=0}] run scoreboard players reset @s grapple_cd
 
+execute as @a[scores={grapple_fall_timer=1..}] run scoreboard players remove @s grapple_fall_timer 1
+execute as @a[scores={grapple_fall_timer=0}] run attribute @s minecraft:fall_damage_multiplier base set 1
+execute as @a[scores={grapple_fall_timer=0}] run scoreboard players reset @s grapple_fall_timer
+
 execute as @a[scores={phase_cd=1..}] run scoreboard players remove @s phase_cd 1
 execute as @a[scores={phase_cd=0}] at @s run playsound entity.breeze.charge ambient @s ~ ~ ~ 1 1
 execute as @a[scores={phase_cd=0}] run scoreboard players reset @s phase_cd
@@ -104,3 +108,11 @@ execute as @e[type=arrow,tag=gravity_arrow,nbt={inGround:1b}] run kill @s
 # Continuous gravity logic
 execute as @e[tag=gravity_center] at @s run particle portal ~ ~0.5 ~ 1 1 1 0 10
 execute as @e[tag=gravity_center] at @s run launch @e[distance=0.1..3,type=!item] toward @s 0.5
+
+
+# reverse gravity logic
+execute positioned -214 -36 0 run tag @e[distance=..24] add reverse_grav
+tag @a[x=-215,y=-12,z=-1,dx=4,dy=31,dz=4] add reverse_grav
+execute as @a[tag=reverse_grav] run attribute @s minecraft:gravity base set -0.02
+execute as @a[tag=!reverse_grav] run attribute @s minecraft:gravity base reset
+tag @a remove reverse_grav

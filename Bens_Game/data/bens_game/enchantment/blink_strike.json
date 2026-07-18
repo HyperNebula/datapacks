@@ -36,7 +36,7 @@
         "affected": "victim",
         "requirements": {
           "condition": "minecraft:random_chance",
-          "chance": 0.25
+          "chance": 0.4 
         },
         "effect": {
           "type": "minecraft:run_function",
