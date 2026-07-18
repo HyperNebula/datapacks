@@ -1,0 +1,10 @@
+{
+  "custom.ultra_instinct": {
+    "sounds": [
+      {
+        "name": "bens_game:custom/ultra_instinct",
+        "stream": true
+      }
+    ]
+  }
+}

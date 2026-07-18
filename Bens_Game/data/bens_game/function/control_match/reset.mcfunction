@@ -10,5 +10,6 @@ title @a title ["",{"selector":"@s","color":"green","bold":true},{"text":" won T
 
 place template bens_game:front_door -27 -22 25
 
+schedule function bens_game:control_match/test 1s
 schedule function bens_game:control_match/2nd_reset 2s
 schedule function bens_game:control_match/reset_map 10s

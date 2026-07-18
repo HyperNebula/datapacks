@@ -24,6 +24,12 @@ execute as @a[scores={time_slow_cd=1..}] run scoreboard players remove @s time_s
 #domain
 execute as @a[scores={use_wand=1..}] if items entity @s weapon.mainhand carrot_on_a_stick[minecraft:item_model="bens_game:domain"] run execute as @a[scores={use_wand=1..}] run function bens_game:custom_items/domain/start
 
+#ultra_instinct
+execute as @a[scores={use_wand=1..}] if items entity @s weapon.mainhand carrot_on_a_stick[minecraft:item_model="bens_game:ultra_instinct"] run execute as @a[scores={use_wand=1..}] run function bens_game:custom_items/ultra_instinct/start
+execute as @a[scores={ultra_instinct_cd=1..}] run scoreboard players remove @s ultra_instinct_cd 1
+execute as @a[scores={ultra_instinct_cd=0}] at @s run playsound entity.breeze.charge ambient @s ~ ~ ~ 1 1
+execute as @a[scores={ultra_instinct_cd=0}] run scoreboard players reset @s ultra_instinct_cd
+
 #zombie_staff
 execute as @a[scores={use_wand=1..}] if items entity @s weapon.mainhand carrot_on_a_stick[minecraft:item_model="bens_game:zombie_staff"] run execute as @a[scores={use_wand=1..}] run function bens_game:custom_items/zombie_staff/start
 
@@ -116,3 +122,5 @@ tag @a[x=-215,y=-12,z=-1,dx=4,dy=31,dz=4] add reverse_grav
 execute as @a[tag=reverse_grav] run attribute @s minecraft:gravity base set -0.02
 execute as @a[tag=!reverse_grav] run attribute @s minecraft:gravity base reset
 tag @a remove reverse_grav
+
+tp @a[x=-213,y=25,z=-10,distance=..0.5] -213 25 83

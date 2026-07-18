@@ -9,6 +9,8 @@ clear @a copper_nugget
 clear @a iron_nugget
 clear @a gold_nugget
 
+give @a arrow 64
+
 gamemode survival @a
 tag @a add playing
 team empty lobby

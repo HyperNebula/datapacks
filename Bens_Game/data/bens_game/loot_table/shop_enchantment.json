@@ -342,7 +342,7 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:enchanted_book",
-                    "weight": 1,
+                    "weight": 5,
                     "functions": [
                         {
                             "function": "minecraft:set_enchantments",
@@ -384,7 +384,7 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:enchanted_book",
-                    "weight": 1,
+                    "weight": 4,
                     "functions": [
                         {
                             "function": "minecraft:set_enchantments",
@@ -489,7 +489,7 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:enchanted_book",
-                    "weight": 1,
+                    "weight": 0,
                     "functions": [
                         {
                             "function": "minecraft:set_enchantments",
@@ -552,7 +552,7 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:enchanted_book",
-                    "weight": 1,
+                    "weight": 0,
                     "functions": [
                         {
                             "function": "minecraft:set_enchantments",
@@ -573,7 +573,7 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:enchanted_book",
-                    "weight": 1,
+                    "weight": 4,
                     "functions": [
                         {
                             "function": "minecraft:set_enchantments",
