@@ -1,6 +1,6 @@
 # --- BLUE PORTAL LOGIC ---
 execute if entity @s[tag=blue_portal] run execute if entity @e[tag=portal1] run kill @e[type=area_effect_cloud,tag=portal1]
-execute if entity @s[tag=blue_portal] run execute if score @s portal_range matches 1.. positioned ^ ^ ^-0.5 run summon area_effect_cloud ~ ~ ~ {Radius:.5f,RadiusPerTick:0f,RadiusOnUse:0f,Duration:2400,WaitTime:0,Tags:["portal1","portal"]}
+execute if entity @s[tag=blue_portal] run execute if score @s portal_range matches 1.. positioned ^ ^ ^-1 run summon area_effect_cloud ~ ~ ~ {Radius:.5f,RadiusPerTick:0f,RadiusOnUse:0f,Duration:2400,WaitTime:0,Tags:["portal1","portal"]}
 
 # State Swap: Mark that we just fired blue, then remove the blue tag
 execute if entity @s[tag=blue_portal] run tag @s add fired_blue

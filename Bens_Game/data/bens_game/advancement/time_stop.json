@@ -6,15 +6,13 @@
                 "item": {
                     "items": "minecraft:goat_horn",
                     "components": {
-                        "minecraft:custom_name": "Time Slow",
-                        "minecraft:item_model": "minecraft:time_slow"
+                        "minecraft:item_model": "bens_game:time_slow"
                     }
                 }
             }
         }
     },
     "rewards": {
-        "loot": [],
         "function": "bens_game:custom_items/time_slow/use_item"
     }
 }
